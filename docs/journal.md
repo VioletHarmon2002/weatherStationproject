@@ -1,8 +1,13 @@
 # Learning journal
 
 13.09.2024
+
 today i am dealing with dowmloading all the neccessary apps for my Project.
-i had also some problems with my
+i had also some problems with mySQl databases today, because i could not connect to it. But i managed to do that.
+ I’ve been working on setting up a Docker environment to streamline my development workflow. The process has been both challenging and rewarding, as it involved configuring docker-compose to orchestrate multiple services, such as MySQL.  I encountered several issues, but each challenge has deepened my understanding of Docker and containerization.
+today i am gong to start working on my portflio website and this week my interntions also include to to create a blinking LED on my  Arduino Uno, as it was told on Knowledge base.
+
+
 
 
 Your learning journal can be seen as a diary of your learning process. It is a place where you can reflect on your learning, and where you can keep track of your progress. It is also a place where you can keep track of your questions, and where you can write down your answers to those questions.
