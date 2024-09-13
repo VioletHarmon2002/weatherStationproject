@@ -2,10 +2,13 @@
 
 13.09.2024
 
-today i am dealing with dowmloading all the neccessary apps for my Project.
-i had also some problems with mySQl databases today, because i could not connect to it. But i managed to do that.
+ today i am dealing with dowmloading all the neccessary apps for my Project.
+ i had also some problems with mySQl databases today, because i could not connect to it. But i managed to do that.
  I’ve been working on setting up a Docker environment to streamline my development workflow. The process has been both challenging and rewarding, as it involved configuring docker-compose to orchestrate multiple services, such as MySQL.  I encountered several issues, but each challenge has deepened my understanding of Docker and containerization.
-today i am gong to start working on my portflio website and this week my interntions also include to to create a blinking LED on my  Arduino Uno, as it was told on Knowledge base.
+ today i am gong to start working on my portflio website and this week my interntions also include to to create a blinking LED on my  Arduino Uno, as it was told in Knowledge base.
+ so today most of the time i was working with my terminal, dealing with mySql and Docker, checking my assignments and checking my standart kit.
+ i also tried to solder, but i suppose i need to improve it, as i suppose i have not done it correctly in a proper way .
+
 
 
 
