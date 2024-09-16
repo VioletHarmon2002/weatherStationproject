@@ -10,6 +10,16 @@
  i also tried to solder, but i suppose i need to improve it, as i suppose i have not done it correctly in a proper way .
 
 
+ 16.09,2024
+
+ i had a lasercut workshop today, where we were having a tutorial of how to cut properly with laser, using various materials 
+ right after explanantion, we tried to make it without teacher help
+
+im still dealing with soldering today, right after this i am going to connect stuff to the WeMOS as see how it goes
+i was also thinking about the desigh of my products, i may combine 3d printer and laser cutting for my physical ptoject 
+another question of the day is how i can use fusion for prototyping 
+
+
 
 
 
