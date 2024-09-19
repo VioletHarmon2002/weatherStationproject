@@ -24,7 +24,8 @@ another question of the day is how i can use fusion for prototyping
 
 today we had three different presentations, about front-end, back-end and databases
 i learnt a few new things about these 3 crucial parts in our projects, so i can impplement everything
-i had a problem with connecting my microcontroller to my mac using hub, but eventually it woe´rked, so i could also connect Internet on my WeMos.
+i had a problem with connecting my microcontroller to my mac using hub, but eventually it worked, so i could also connect Internet on my WeMos.
+i spent some time today to go through all the documentation, especially knowledge base, so i can i deeper understanding in whole structure.
 
 
 
