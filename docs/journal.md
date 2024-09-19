@@ -20,6 +20,13 @@ i was also thinking about the desigh of my products, i may combine 3d printer an
 another question of the day is how i can use fusion for prototyping 
 
 
+19.09.2024
+
+today we had three different presentations, about front-end, back-end and databases
+i learnt a few new things about these 3 crucial parts in our projects, so i can impplement everything
+i had a problem with connecting my microcontroller to my mac using hub, but eventually it woe´rked, so i could also connect Internet on my WeMos.
+
+
 
 
 
