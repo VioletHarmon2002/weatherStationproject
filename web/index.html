@@ -3,31 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Smart Clock - Time Detector</title>
+    <title>Time Detector - Dashboard</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>Smart Clock - Time Detector</h1>
+      <h1>Time Detector Dashboard</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#data">Time Data</a></li>
+          <li><a href="#settings">Settings</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <main>
-      <section class="status">
-        <h2>Current Time Data</h2>
-        <div class="time-data">
-          <p id="current-time">00:00:00</p>
-        </div>
+    <main id="app">
+      
+      <section id="home" class="view">
+        <h2>Welcome to the Time Detector Dashboard</h2>
+        <p>View and analyze data from your device.</p>
       </section>
 
-      <section class="dashboard-link">
-        <p>For detailed analytics, visit your <a href="/dashboard">dashboard</a>.</p>
+      <section id="data" class="view hidden">
+        <h2>Time Data</h2>
+        <p>Data from your embedded device will be displayed here.</p>
+      </section>
+
+      <section id="settings" class="view hidden">
+        <h2>Settings</h2>
+        <p>Manage your device settings here.</p>
       </section>
     </main>
 
     <footer>
       <p>© 2024 Time Detector Project</p>
     </footer>
-
-    <script src="app.js"></script>
   </body>
 </html>
