@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Your website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Clock - Time Detector</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-	<h1>Smart clock project</h1>
-    <p>
-        This is your webpage. In the directory 'web' you can find the files that are accessible from the web. <br />
-        If you want to visit your dashboard, please visit <a href="/dashboard">/dashboard</a>.
+    <header>
+      <h1>Smart Clock - Time Detector</h1>
+    </header>
 
-  <h2>Main components</h2>
+    <main>
+      <section class="status">
+        <h2>Current Time Data</h2>
+        <div class="time-data">
+          <p id="current-time">00:00:00</p>
+        </div>
+      </section>
 
-  
+      <section class="dashboard-link">
+        <p>For detailed analytics, visit your <a href="/dashboard">dashboard</a>.</p>
+      </section>
+    </main>
 
+    <footer>
+      <p>© 2024 Time Detector Project</p>
+    </footer>
 
-    </p>
+    <script src="app.js"></script>
   </body>
 </html>
