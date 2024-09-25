@@ -27,6 +27,17 @@ i learnt a few new things about these 3 crucial parts in our projects, so i can 
 i had a problem with connecting my microcontroller to my mac using hub, but eventually it worked, so i could also connect Internet on my WeMos.
 i spent some time today to go through all the documentation, especially knowledge base, so i can i deeper understanding in whole structure.
 
+
+20.09.2024
+Today i mostly spending my time on working with front-end in VsCode, especially html and css
+moreover, i have accomplished, that i can run my Portfolio Website locally, so it could be serving on http://127.0.0.1:8000/
+i have also started working with mySQL workbench, creating sketches of tables
+this week i want to continue working on databases, so i could send my work for the feedback.
+i have designed two main tables users and time logs.
+where user table stores the ssebtial information about each user, including user id identifier
+talking about time logs table, where check in and check out times are being tracked.
+but more tables are needed to be created for the data.
+
 25.09.2024
 today i am finally done with database using phpmyadmin, where i have created database, called time_registration_db with 2 tables: "devices" and "time_logs"
 
@@ -49,3 +60,5 @@ here are screenshots:
 Your learning journal can be seen as a diary of your learning process. It is a place where you can reflect on your learning, and where you can keep track of your progress. It is also a place where you can keep track of your questions, and where you can write down your answers to those questions.
 
 So for example when you receive feedback on your project, you can write down the feedback and your reflection on it in your learning journal. You can also write down what you have learned from the feedback, and how you will apply it in your project.
+
+test
