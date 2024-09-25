@@ -27,6 +27,21 @@ i learnt a few new things about these 3 crucial parts in our projects, so i can 
 i had a problem with connecting my microcontroller to my mac using hub, but eventually it worked, so i could also connect Internet on my WeMos.
 i spent some time today to go through all the documentation, especially knowledge base, so i can i deeper understanding in whole structure.
 
+25.09.2024
+today i am finally done with database using phpmyadmin, where i have created database, called time_registration_db with 2 tables: "devices" and "time_logs"
+
+here are screenshots:
+
+![My Image](images/1st_database.jpeg)
+
+
+
+
+
+
+
+
+
 
 
 
