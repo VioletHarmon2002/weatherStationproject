@@ -1,4 +1,4 @@
-# Blueprint name here
+# Smart time registration 
 
 
 
