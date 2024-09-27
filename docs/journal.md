@@ -39,11 +39,15 @@ talking about time logs table, where check in and check out times are being trac
 but more tables are needed to be created for the data.
 
 25.09.2024
-today i am finally done with database using phpmyadmin, where i have created database, called time_registration_db with 2 tables: "devices" and "time_logs"
+today i am finally done with database using phpmyadmin, where i have created database, called time_registration_db with 4 tables: "devices" and "outputs", "sensors" and "statusmessges". 
 
-here are screenshots:
+27.09.2024
+today i am dealing with  fritzing designs, creating 3d models for my project. As i chose smart clocks, i had to choose the right materials and components. It may be quite complicated for me, as its the first time i am working with 3d modeling. I also chose details foe my project, but i still need to buy KY-018 (Photo Resistor, KY-040 (Rotary Encoder) 
 
-![My Image](images/1st_database.jpeg)
+
+
+
+
 
 
 

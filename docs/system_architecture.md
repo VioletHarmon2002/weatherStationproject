@@ -37,9 +37,9 @@ Docker Environment: Containerize the backend and database using Docker for consi
 HTTP/HTTPS: 
 
 The embedded device acts as a client and sends measured sensor data to the application backend over http.
-Define how your microcontroller will send data to the server (over HTTP/HTTPS) and receive status messages.
 
-REST API: Create endpoints for sending sensor data to the backend and receiving messages.
+
+REST API: 
 
 
 1.4 Database
