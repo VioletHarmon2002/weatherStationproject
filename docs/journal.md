@@ -46,7 +46,7 @@ today i am dealing with  fritzing designs, creating 3d models for my project. As
 
 29.09.2024
 
-today i have created Php connections to my project, so i can use database i have created for my project. 
+today i have created Php connections to my project, so i can use database i have created for my project. however, i am having a huge problem to put my images into my project. i am always having the mistake, which says that Error loading webview: Error: Could not register service worker: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state.
 
 
 
