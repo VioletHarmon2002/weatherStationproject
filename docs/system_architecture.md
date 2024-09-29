@@ -1,10 +1,9 @@
 # System Architecture
 
 
-
-
-
 On this page you can describe the system architecture of your full-project. This includes the architecture of the software, the hardware and the communication between them. Make sure you create a clear overview, don't forget everything that is included in the existing Docker environment.
+
+The Smart Time Registration project is a system designed to track and display time, with additional sensor integration for user settings, environmental feedback, and data communication. The embedded device serves as both a client (sending sensor data) and a server (receiving status messages) over HTTP/HTTPS
 
 
 
@@ -14,10 +13,11 @@ Microcontroller Selection: ESP8266
 Sensors: 
 KY-015 (Temperature and Humidity Sensor)
 KY-018 (Photo Resistor): To adjust display brightness based on ambient light.
-LCD Display (16x2 or 20x4): To display time.
-KY-040 (Rotary Encoder): To adjust settings (e.g., time, alarm, brightness)
-Push Buttons 
+LCD Display (16x2 or 20x4): To display real time data, while the buzzer and LED display provide sensory feedback.
+KY-040 (Rotary Encoder): Used to adjust settings like time, alarm, and brightness.
+Push Buttons.  Allows manual control for settings like alarm or rese
 Real-Time Clock (RTC DS3231)
+RFID: check in and out of the system. 
 
 Visual/sensory outputs: Buzzer, LED dispaly, LSD display 
 Power Supply:  battery 

@@ -44,6 +44,11 @@ today i am finally done with database using phpmyadmin, where i have created dat
 27.09.2024
 today i am dealing with  fritzing designs, creating 3d models for my project. As i chose smart clocks, i had to choose the right materials and components. It may be quite complicated for me, as its the first time i am working with 3d modeling. I also chose details foe my project, but i still need to buy KY-018 (Photo Resistor, KY-040 (Rotary Encoder) 
 
+29.09.2024
+
+today i have created Php connections to my project, so i can use database i have created for my project. 
+
+
 
 
 
