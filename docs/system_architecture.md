@@ -35,11 +35,13 @@ Docker Environment: Containerize the backend and database using Docker for consi
 1.3. Communication 
 
 HTTP/HTTPS: 
+The smart time registration system operates  over HTTP/HTTPS, enabling the microcontroller to send sensor data to the backend. 
+1. The ESP8266 collects data from sensors and formats it into structured request.
+2. The formated data is being sent to backend using HTTP/HTTPS requests.
+3. The backend(using PHP) processes the incoming data, updates mysql.
+4. The backend sends staues messages to the embedded device, whcih displayes the data, using LED. 
 
-The embedded device acts as a client and sends measured sensor data to the application backend over http.
 
-
-REST API: 
 
 
 1.4 Database

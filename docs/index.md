@@ -7,6 +7,8 @@ This system captures data from sensors and sends it to a backend application ove
 
 
 
+
+
 Here is a picture of my project:
 
 
