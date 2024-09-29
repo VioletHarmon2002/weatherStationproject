@@ -1,5 +1,5 @@
 <?php
-// Database configuration
+
 $host = 'localhost'; 
 $db = 'time_registration';
 $user = 'root';
