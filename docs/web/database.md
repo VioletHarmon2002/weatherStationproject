@@ -42,7 +42,7 @@ CREATE TABLE StatusMessages (
 Tables:
 
 
-![Devices Table](../assets/new.png)
+![Devices Table](docs/assets/new.png)
 
 2. Sensors Table
 img
