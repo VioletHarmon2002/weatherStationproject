@@ -48,6 +48,11 @@ today i am dealing with  fritzing designs, creating 3d models for my project. As
 
 today i have created Php connections to my project, so i can use database i have created for my project. however, i am having a huge problem to put my images into my project. i am always having the mistake, which says that Error loading webview: Error: Could not register service worker: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state.
 
+30.09.2024
+i have noticed a problem, realted to my gitlab project, that when i am pushing changes(photos), it is being updated in my gitlab folders, but not in my IoT - Students' Portfolio. however, i have managed do solve the problem i ahd yesterday with my error. 
+today i was also soldering some of my details, How to Use I2C LCD with weMos.
+
+
 
 
 

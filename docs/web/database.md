@@ -7,16 +7,16 @@ Database structure:
 Tables:
 
 1. Devices Table 
-![Devices Table](docs/assets/new.png)
+![Devices Table](/assets/new.png)
 
 2. Sensors Table
-![Devices Table](docs/assets/sensors.jpg)
+![Devices Table](/assets/sensors.jpg)
 
 3. StatusMessages Table
-![Devices Table](docs/assets/statusmessages.jpg)
+![Devices Table](/assets/statusmessages.jpg)
 
 4. Outputs Table 
-![Devices Table](docs/assets/outputs.jpg)
+![Devices Table](/assets/outputs.jpg)
 
 
 
