@@ -40,9 +40,9 @@ CREATE TABLE StatusMessages (
 
 
 Tables:
-1. Devices Table
 
-![Devices Table](images/devices_table.jpg)
+
+![Devices Table](docs/assets/new.png)
 2. Sensors Table
 img
 3. Outputs Table

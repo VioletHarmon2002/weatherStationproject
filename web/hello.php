@@ -3,7 +3,7 @@
 $host = 'localhost'; 
 $db = 'time_registration';
 $user = 'root';
-$pass = 'loveyable1327';
+$pass = '7YKyE8R2AhKzswfN';
 
 $conn = new mysqli($host, $user, $pass, $db);
 
