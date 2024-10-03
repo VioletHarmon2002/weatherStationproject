@@ -64,6 +64,9 @@ I connected the D1 pin to SCL and the D2 pin to SDA, using the Wire library to s
 After detecting the LCD at address 0x27, I was able to initialize it and display a custom message. By using the LiquidCrystal_I2C library, I initialized the display, enabled the backlight, and printed several lines of text to verify its operation. 
 This setup will allow me to interact with the LCD easily and is a crucial part of my ongoing IoT project.
 
+These images shows part of the code, where i was trying to find the adress of LCD and the output of the program.
+
+![Devices Table](docs/assets/adress.jpg)
  
 ![Devices Table](docs/assets/IMG_57772.png)
 
@@ -71,6 +74,8 @@ The next step I am trying to achieve is to connect my KY-015, which shows humidi
 Here is a small part of my code:
 
 ![Arduino code](docs/assets/ky015.jpg)
+
+
 
 
 
