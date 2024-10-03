@@ -49,14 +49,20 @@ today i am dealing with  fritzing designs, creating 3d models for my project. As
 today i have created Php connections to my project, so i can use database i have created for my project. however, i am having a huge problem to put my images into my project. i am always having the mistake, which says that Error loading webview: Error: Could not register service worker: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state.
 
 30.09.2024
+
 i have noticed a problem, realted to my gitlab project, that when i am pushing changes(photos), it is being updated in my gitlab folders, but not in my IoT - Students' Portfolio. however, i have managed do solve the problem i ahd yesterday with my error. 
 today i was also soldering some of my details, How to Use I2C LCD with weMos.
 
 
 03.09.2024
-today i managed to fix the problem with my LCD screen, so ow i am having everything working
-moreover, i have managed to write the fist program and get an output for it 
 
+Today i managed to fix the problem with my LCD screen, so now i am having everything working.
+Moreover, i have managed to write the fist program and get an output for it 
+For my project, I have successfully set up an I2C LCD with the WeMos D1 Mini. 
+I started by downloading the necessary libraries and writing an I2C scanner code to detect the LCD on the I2C bus. 
+I connected the D1 pin to SCL and the D2 pin to SDA, using the Wire library to scan for devices on the I2C bus. 
+After detecting the LCD at address 0x27, I was able to initialize it and display a custom message. By using the LiquidCrystal_I2C library, I initialized the display, enabled the backlight, and printed several lines of text to verify its operation. 
+This setup will allow me to interact with the LCD easily and is a crucial part of my ongoing IoT project.
 
  
 ![Devices Table](docs/assets/IMG_57772.png)
@@ -80,6 +86,3 @@ moreover, i have managed to write the fist program and get an output for it
 
 
 
-Your learning journal can be seen as a diary of your learning process. It is a place where you can reflect on your learning, and where you can keep track of your progress. It is also a place where you can keep track of your questions, and where you can write down your answers to those questions.
-
-So for example when you receive feedback on your project, you can write down the feedback and your reflection on it in your learning journal. You can also write down what you have learned from the feedback, and how you will apply it in your project.
