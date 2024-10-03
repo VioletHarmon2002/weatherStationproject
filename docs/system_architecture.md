@@ -12,12 +12,25 @@ The Smart Time Registration project is a system designed to track and display ti
 Microcontroller Selection: ESP8266 
 Sensors: 
 KY-015 (Temperature and Humidity Sensor)
+Functions:  Displays real-time temperature and humidity on the LCD screen, providing useful environmental information.
+
 KY-018 (Photo Resistor): To adjust display brightness based on ambient light.
-LCD Display (16x2 or 20x4): To display real time data, while the buzzer and LED display provide sensory feedback.
-KY-040 (Rotary Encoder): Used to adjust settings like time, alarm, and brightness.
-Push Buttons.  Allows manual control for settings like alarm or rese
+Functions:Automatically adjusts the brightness of the LCD display based on surrounding light conditions. This makes the display easier to read and saves power.
+
+LCD Display (16x2 or 20x4):
+Functions: displays real time data, while the buzzer and LED display provide sensory feedback.
+
+KY-040 (Rotary Encoder).
+Functions: allows users to adjust settings like the time, set alarms, or fine-tune display brightness.
+
+Push Buttons.  
+Functions: Allows manual control for settings like alarm or reseting the system
+
 Real-Time Clock (RTC DS3231)
-RFID: check in and out of the system. 
+Functions: Maintains accurate time even when the microcontroller is powered off.
+
+RFID: 
+Functions:  Tracks when someone interacts with the system, possibly logging attendance or access times.
 
 Visual/sensory outputs: Buzzer, LED dispaly, LSD display 
 Power Supply:  battery 
