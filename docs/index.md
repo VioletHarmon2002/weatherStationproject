@@ -7,7 +7,7 @@ This system captures data from sensors and sends it to a backend application ove
 
 Below is the schematic of my project, designed in Fritzing, which visually represents the components and their connections
 
-![fritzing Table](/assets/fritzing.jpg)
+![fritzing Table](docs/assets/fritzing.jpg)
 
 
 
