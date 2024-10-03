@@ -67,6 +67,12 @@ This setup will allow me to interact with the LCD easily and is a crucial part o
  
 ![Devices Table](docs/assets/IMG_57772.png)
 
+The next step I am trying to achieve is to connect my KY-015, which shows humidity and temperature, to my LCD. 
+Here is a small part of my code:
+
+![Arduino code](docs/assets/ky015.jpg)
+
+
 
 
 
