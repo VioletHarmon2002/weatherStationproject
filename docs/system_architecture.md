@@ -22,6 +22,12 @@ RFID: check in and out of the system.
 Visual/sensory outputs: Buzzer, LED dispaly, LSD display 
 Power Supply:  battery 
 
+
+1. Fritzing Table 
+![fritzing Table](/assets/fritzing.jpg)
+
+
+
 1.2. Software Architecture:
 
 Arduino IDE
