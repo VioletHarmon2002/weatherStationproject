@@ -5,11 +5,11 @@
 The purpose of the "Smart Time Registration" blueprint is to create an IoT-based system that tracks and manages time-related tasks using microcontrollers. 
 This system captures data from sensors and sends it to a backend application over HTTP or HTTPS for processing. In return, the embedded device receives status messages from the backend, allowing real-time communication
 
+Below is the schematic of my project, designed in Fritzing, which visually represents the components and their connections
+
+![fritzing Table](/assets/fritzing.jpg)
 
 
-
-
-Here is a picture of my project:
 
 
 
