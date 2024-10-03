@@ -53,6 +53,12 @@ i have noticed a problem, realted to my gitlab project, that when i am pushing c
 today i was also soldering some of my details, How to Use I2C LCD with weMos.
 
 
+03.09.2024
+today i managed to fix the problem with my LCD screen, so no im having an ouput as excpected
+ 
+![Devices Table](docs/assets/IMG_57772.png)
+
+
 
 
 
