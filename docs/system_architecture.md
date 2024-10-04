@@ -86,7 +86,7 @@ Docker Containers: Each component of the system—such as the web server (NGINX)
 
 
 
-portfolio link  [Smart Time Registration  Documentation](https://guudeemiiree57-iot-2024-2025-semester-1-individu-aa710d5251c8b8.dev.hihva.nl/web/database/).
+portfolio link  [Smart Time Registration  Documentation](https://guudeemiiree57-iot-2024-2025-semester-1-individu-aa710d5251c8b8.dev.hihva.nl/system_architecture/).
 
 
 

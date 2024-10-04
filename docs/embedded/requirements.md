@@ -1,6 +1,6 @@
 # Requirements
 
-![Devices Table](docs/assets/systemreq.jpg)
+![Devices Table](/assets/systemreq.jpg)
 
 For my project i need to:
 
