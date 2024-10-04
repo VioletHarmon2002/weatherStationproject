@@ -37,7 +37,7 @@ Functions: Maintains accurate time even when the microcontroller is powered off.
 RFID: 
 Functions:  Tracks when someone interacts with the system, possibly logging attendance or access times.
 
-Visual/sensory outputs: Buzzer, LED dispaly, LSD display 
+Visual/sensory outputs: Buzzer, LCD display 
 Power Supply:  battery 
 
 
