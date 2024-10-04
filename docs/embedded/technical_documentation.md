@@ -11,6 +11,7 @@ A system architecture diagram provides a high-level visual representation of the
 The Smart Time Registration project is a system designed to track and display time, with additional sensor integration for user settings, environmental feedback, and data communication. The embedded device serves as both a client (sending sensor data) and a server (receiving status messages) over HTTP/HTTPS
 
 ![Devices Table](/assets/Image.jpg)
+![Devices Table](docs/embedded/Image.jpg)
 
 
 System Architecture:
