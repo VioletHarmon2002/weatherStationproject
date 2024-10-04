@@ -66,14 +66,14 @@ This setup will allow me to interact with the LCD easily and is a crucial part o
 
 These images shows part of the code, where i was trying to find the adress of LCD and the output of the program.
 
-![Devices Table](docs/assets/adress.jpg)
+![Devices Table](/assets/adress.jpg)
  
-![Devices Table](docs/assets/IMG_57772.png)
+![Devices Table](/assets/IMG_57772.png)
 
 The next step I am trying to achieve is to connect my KY-015, which shows humidity and temperature, to my LCD. 
 Here is a small part of my code:
 
-![Arduino code](docs/assets/ky015.jpg)
+![Arduino code](/assets/ky015.jpg)
 
 
 

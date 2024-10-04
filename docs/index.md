@@ -7,7 +7,7 @@ This system captures data from sensors and sends it to a backend application ove
 
 Below is the schematic of my project, designed in Fritzing, which visually represents the components and their connections
 
-![fritzing Table](docs/assets/fritzing.jpg)
+![fritzing Table](/assets/fritzing.jpg)
 
 The ESP8266 is the core microcontroller that handles sensor data acquisition, communication with the backend, and control of outputs. It connects to the network using WiFi and facilitates HTTP/HTTPS communication with a backend serve
 The next is KY-015 sensor, which monitors the surrounding environment by measuring temperature and humidity levels, which are displayed in real time on the LCD screen.
