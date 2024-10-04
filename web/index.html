@@ -11,15 +11,14 @@
       <h1>Time Detector Dashboard</h1>
       <nav>
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#data">Time Data</a></li>
-          <li><a href="#settings">Settings</a></li>
+          <li><a href="#home" class="nav-link" data-target="home">Home</a></li>
+          <li><a href="#data" class="nav-link" data-target="data">Time Data</a></li>
+          <li><a href="#settings" class="nav-link" data-target="settings">Settings</a></li>
         </ul>
       </nav>
     </header>
 
     <main id="app">
-      
       <section id="home" class="view">
         <h2>Welcome to the Time Detector Dashboard</h2>
         <p>View and analyze data from your device.</p>
@@ -27,6 +26,7 @@
 
       <section id="data" class="view hidden">
         <h2>Time Data</h2>
+        <p id="current-time">Loading current time...</p>
         <p>Data from your embedded device will be displayed here.</p>
       </section>
 
@@ -39,5 +39,7 @@
     <footer>
       <p> :))))))</p>
     </footer>
+
+    <script src="dashboard.js"></script>
   </body>
 </html>
