@@ -1,10 +1,15 @@
 # System Architecture
 
+Introduction:
 
-On this page you can describe the system architecture of your full-project. This includes the architecture of the software, the hardware and the communication between them. Make sure you create a clear overview, don't forget everything that is included in the existing Docker environment.
+A system architecture diagram provides a high-level visual representation of the components and their interactions in the Smart Time Registration system. It helps stakeholders and developers understand how different parts—hardware, software, communication protocols, and the database—integrate and function together. 
 
 The Smart Time Registration project is a system designed to track and display time, with additional sensor integration for user settings, environmental feedback, and data communication. The embedded device serves as both a client (sending sensor data) and a server (receiving status messages) over HTTP/HTTPS
 
+![Devices Table](docs/assets/Image.jpg)
+
+
+System Architecture:
 
 
 1.1. Hardware Architecture:
@@ -61,8 +66,6 @@ The smart time registration system operates  over HTTP/HTTPS, enabling the micro
 4. The backend sends staues messages to the embedded device, whcih displayes the data, using LED. 
 
 
-
-
 1.4 Database
 a. Devices table. This table stores information about the devices used in the IoT system
 b. Sensors table. This table stores information about the sensors attached to each device
@@ -70,8 +73,7 @@ c. Outputs table. This table stores information about the outputs attached to ea
 d. Messages table. This table stores status messages received from the backend.
 
 
-
 1.5. Docker Environment
 
-Keep your system architecture up-to-date during the project. It is a living document that should reflect the current state of your project.
+
 
