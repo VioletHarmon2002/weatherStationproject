@@ -41,6 +41,11 @@ When the embedded device sends sensor data, for instance temperature, humidity,l
 
 portfolio link  [Smart Time Registration Database Documentation](https://guudeemiiree57-iot-2024-2025-semester-1-individu-aa710d5251c8b8.dev.hihva.nl/web/database/).
 
+## Database Documentation
+
+For detailed information about the database structure and interactions, please refer to the [ReadMe](docs/database/README.md).
+
+
 
 
 
