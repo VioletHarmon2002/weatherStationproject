@@ -75,5 +75,18 @@ d. Messages table. This table stores status messages received from the backend.
 
 1.5. Docker Environment
 
+Docker Environment
+
+Docker Registry: The Docker registry stores the Docker images used for the Smart Time Registration project. 
+
+Docker Host: The Docker host runs Docker containers, providing a virtualized hardware environment for the Smart Time Registration system. This setup allows for the isolation of components, including the web server, database, and backend services, ensuring that each part of the application can operate independently and reliably.
+
+Docker Containers: Each component of the system—such as the web server (NGINX), database (MariaDB), PHP application, and additional services like PHPMyAdmin—runs in its own container. This containerization approach simplifies deployment and scaling while maintaining a clean separation.
+
+
+
+
+portfolio link  [Smart Time Registration  Documentation](https://guudeemiiree57-iot-2024-2025-semester-1-individu-aa710d5251c8b8.dev.hihva.nl/web/database/).
+
 
 
