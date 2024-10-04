@@ -42,7 +42,7 @@ Power Supply:  battery
 
 
 1. Fritzing Table 
-![fritzing Table](/assets/fritzing.jpg)
+![fritzing Table](docs/assets/fritzing.jpg)
 
 
 
