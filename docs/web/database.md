@@ -12,13 +12,13 @@ Tables:
 
 Stores information about each device connected to the system, such as the embedded device (ESP8266)
 
-![Devices Table](assets/new.png)
+![Devices Table](docks/assets/new.png)
 
 1.2 Sensors Table
 
 Stores data from sensors attached to the devices, including temperature, humidity, and light readings.
 
-![Sensors Table](assets/sensors.jpg)
+![Sensors Table](docs/assets/sensors.jpg) 
 
 1.3 StatusMessages Table
 
