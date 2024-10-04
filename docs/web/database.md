@@ -39,5 +39,8 @@ Stores information about the outputs (like the buzzer, LED, or LCD display) gene
 When the embedded device sends sensor data, for instance temperature, humidity,light, it is stored in Sensors table. So the web application retrieves data from the database and allows users do view device outputs and status messages on the front-end. 
 
 
+portfolio link  [Smart Time Registration Database Documentation](https://guudeemiiree57-iot-2024-2025-semester-1-individu-aa710d5251c8b8.dev.hihva.nl/web/database/).
+
+
 
 
