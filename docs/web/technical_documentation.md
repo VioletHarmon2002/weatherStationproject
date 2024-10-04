@@ -4,12 +4,12 @@ you create a Wiring Diagram and Bill of Materials (BOM) and upload the URL to yo
 
 | Part         | Manufacturer  | Description	   Quantity |   Price (incl. VAT)   Example url
 |--------------|--------------|-----------------|------------|--------------------|-----------
-|   ESP8266            |              | Row 1 Col 3     |            |                    |
-|    KY-015           |              | Row 2 Col 3     |            |                    |
-|   KY-018           |              | Row 3 Col 3     |            |                    |
-|  LCD Display            |              | Row 3 Col 3     |            |                    |
-|   KY-040           |              | Row 3 Col 3     |            |                    |
-| Push Buttons           |              | Row 3 Col 3     |            |                    |
+|   ESP8266                                     
+|    KY-015               
+|   KY-018                         
+|  LCD Display                     
+|   KY-040                         
+| Push Buttons                   
 |  RTC DS3231 
 |  RFID
-|   Buzzer        |              | Row 3 Col 3     |            |                    |
+|   Buzzer                     
