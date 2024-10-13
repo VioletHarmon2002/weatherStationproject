@@ -91,11 +91,16 @@ the image below shows the code for RCD connection and the diagram shows, how to 
 
 ![RealTime](/assets/realtime.jpg)
 
-
-
-
 also, i have downloaded a few libraries, so i can work on Arduino.
 libaries, such as RTClib(Used for interacting with Real-Time Clock modules (like the DS3231) to keep track of time accurately.), DHT sensor library(using DHT for temperature and humidity), Encoder(manage rotary encoders, allowing you to read the position and state of the encoder.)
+
+ I’ve learned that libraries are essential tools that simplify how we interact with various components and sensors in Arduino. Each library is specifically designed to handle the complexities of certain hardware, making it easier to integrate into the system without having to write low-level code from scratch.
+
+
+
+
+
+
 
 
 
