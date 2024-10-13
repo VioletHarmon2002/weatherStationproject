@@ -90,15 +90,18 @@ Docker Containers: Each component of the system—such as the web server (NGINX)
 
 
 
+| Part         | Manufacturer  | Description	           | Quantity | Price (incl. VAT) |   |
+|--------------|---------------|--------------------------|----------|-------------------|-----------------------|
+| ESP8266      | [Manufacturer] | Wi-Fi microcontroller      | 1        | [4, 95]           |          
+| KY-015       | [Manufacturer] | Temperature & Humidity Sensor | 1        | [4 ,45]                     
+| KY-018       | [Manufacturer] | Photoresistor (LDR)        | 1        | [2, 55]           |      
+| LCD Display  | [Manufacturer] | 16x2 or 20x4 LCD display  | 1        | [3 , 45]           |         
+| KY-040       | [Manufacturer] | Rotary Encoder            | 1        | [3 ,95]           |         
+| Push Buttons | [Manufacturer] | Momentary push buttons    | 2        | [0 ,20]           |          
+| RTC DS3231   | [Manufacturer] | Real-Time Clock module    | 1        | [4, 95]           |           
+| RFID         | [Manufacturer] | RFID module               | 1        | [5 ,95]           |          
+| Buzzer       | [Manufacturer] | Piezo buzzer              | 1        | [1, 25]           |         
 
-| Part         | Manufacturer  | Description	   Quantity |   Price (incl. VAT)   Example url
-|--------------|--------------|-----------------|------------|--------------------|-----------
-|   ESP8266                                     
-|    KY-015               
-|   KY-018                         
-|  LCD Display                     
-|   KY-040                         
-| Push Buttons                   
-|  RTC DS3231 
-|  RFID
-|   Buzzer       
+
+
+
