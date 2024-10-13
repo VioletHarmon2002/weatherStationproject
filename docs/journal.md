@@ -83,6 +83,11 @@ I connected the power pins: VCC to 3.3V and GND to ground. Then, I connected the
 The rotary encoder lets me adjust the time or settings. I connected VCC to 3.3V and GND to ground. The CLK pin went to D6, DT to D7, and the SW pin (button) to D8.
 I connected two push buttons for controlling things like the alarm or reset. Each button has two connections: one goes to 3.3V and the other to a digital pin (D3 and D4)
 
+also, i have downloaded a few libraries, so i can work on Arduino.
+libaries, such as RTClib(Used for interacting with Real-Time Clock modules (like the DS3231) to keep track of time accurately.), DHT sensor library(using DHT for temperature and humidity), Encoder(manage rotary encoders, allowing you to read the position and state of the encoder.)
+
+
+
 
 
 
