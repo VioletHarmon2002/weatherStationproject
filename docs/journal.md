@@ -75,6 +75,15 @@ Here is a small part of my code:
 
 ![Arduino code](/assets/ky015.jpg)
 
+12.10.2024
+
+I connected the power pins: VCC to 3.3V and GND to ground. Then, I connected the data pin to a digital pin (D5) on the ESP8266 to read the sensor data. the next one is photo resistor, this sensor is for light, so I connected VCC to 3.3V and GND to ground. The signal pin goes to the analog input (A0) on the ESP8266 so it can detect changes in light. For the display, I used an I2C module. I connected VCC to 5V (using a step-up converter since ESP8266 uses 3.3V). Then, SDA goes to D2 (for data) and SCL goes to D1 (for clock). The display shows the time and sensor readings.
+The rotary encoder lets me adjust the time or settings. I connected VCC to 3.3V and GND to ground. The CLK pin went to D6, DT to D7, and the SW pin (button) to D8.
+I connected two push buttons for controlling things like the alarm or reset. Each button has two connections: one goes to 3.3V and the other to a digital pin (D3 and D4)
+
+
+
+
 
 
 
