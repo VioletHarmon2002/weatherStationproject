@@ -90,6 +90,12 @@ Docker Containers: Each component of the system—such as the web server (NGINX)
 
 
 
+This Bill of Materials (BOM) outlines all the components required for the successful implementation of the Smart Time Registration project. Each part listed is essential for ensuring the functionality and effectiveness of the system, which includes features such as real-time data display, ambient light adjustment, and user interaction capabilities.
+The table below provides detailed information about each component, including the part name, manufacturer, description, quantity needed for the project, and the price (including VAT). This comprehensive overview serves as a guide for sourcing and procuring the necessary materials to construct the IoT system efficiently.
+
+
+
+
 | Part         | Manufacturer  | Description	           | Quantity | Price (incl. VAT) |   |
 |--------------|---------------|--------------------------|----------|-------------------|-----------------------|
 | ESP8266      | [Manufacturer] | Wi-Fi microcontroller      | 1        | [4, 95]           |          
