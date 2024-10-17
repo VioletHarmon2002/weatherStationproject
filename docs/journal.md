@@ -141,6 +141,10 @@ Description: This is a popular library for interfacing with various real-time cl
 RTC requires real-time timekeeping without internet access.
 https://github.com/adafruit/RTClib
 
+the next step I am going to add  the button, which could switch between displaying temperature/humidity data and real-time clock information on the LCD.
+
+
+
 
 
 
