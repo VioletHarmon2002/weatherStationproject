@@ -135,6 +135,14 @@ I will use libraries like NTPClient to fetch time from NTP servers.
 
 ![ApiTime](/assets/apitime.jpg)
 
+however, i ahve aslo considered using RTClib:
+Description: This is a popular library for interfacing with various real-time clock modules like the DS1307 and DS3231.
+
+RTC requires real-time timekeeping without internet access.
+https://github.com/adafruit/RTClib
+
+
+
 
 
 
