@@ -104,6 +104,12 @@ libaries, such as RTClib(Used for interacting with Real-Time Clock modules (like
  here is the code i ahve used and output on serial monitor, while connecting sensors 
 
 ![RealTime](/assets/sensorr.jpg)
+
+this is a real photo where i have connected all the necceassary sensors, except one  LED one push button  
+
+![RealTime](/assets/IMG_5900.jpg)
+
+
  
 
 
