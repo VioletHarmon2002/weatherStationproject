@@ -96,6 +96,13 @@ libaries, such as RTClib(Used for interacting with Real-Time Clock modules (like
 
  I’ve learned that libraries are essential tools that simplify how we interact with various components and sensors in Arduino. Each library is specifically designed to handle the complexities of certain hardware, making it easier to integrate into the system without having to write low-level code from scratch.
 
+ 16.10.2024
+
+ The KY-018 (Photo Resistor) plays a crucial role in adjusting the brightness of the LCD display based on the surrounding light conditions. 
+ By detecting ambient light levels, the photoresistor helps automatically regulate the brightness of the display. In low-light conditions, the display dims to save power, while in brighter conditions, the display increases brightness to maintain readability. This not only enhances the user experience but also contributes to energy efficiency.
+
+ 
+
 
 
 
