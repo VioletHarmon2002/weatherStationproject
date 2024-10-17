@@ -110,6 +110,24 @@ this is a real photo where i have connected all the necceassary sensors, except 
 ![RealTime](/assets/IMG_5900.jpg)
 
 
+here is the code i have used for ldr:
+
+
+#define LDR_PIN A0 // define the LDR pin
+
+void setup() {
+  Serial.begin(9600); // start serial communication at 9600 bps
+}
+
+void loop() {
+  int ldrValue = analogRead(LDR_PIN); // read the value from the LDR
+  Serial.println(ldrValue); // print the value to the serial port
+  delay(100); // wait for 100ms
+}
+
+
+
+
  
 
 
