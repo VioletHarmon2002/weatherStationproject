@@ -101,6 +101,9 @@ libaries, such as RTClib(Used for interacting with Real-Time Clock modules (like
  The KY-018 (Photo Resistor) plays a crucial role in adjusting the brightness of the LCD display based on the surrounding light conditions. 
  By detecting ambient light levels, the photoresistor helps automatically regulate the brightness of the display. In low-light conditions, the display dims to save power, while in brighter conditions, the display increases brightness to maintain readability. This not only enhances the user experience but also contributes to energy efficiency.
 
+ here is the code i ahve used and output on serial monitor, while connecting sensors 
+
+![RealTime](/assets/sensorr.jpg)
  
 
 
