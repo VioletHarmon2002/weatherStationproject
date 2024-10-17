@@ -127,6 +127,16 @@ void loop() {
 
 
 
+For the real-time clock functionality, I am gonna use an API, whcih allows the project to maintain accurate time. This information can be displayed on the LCD alongside humidity readings and can be logged for future analysis.
+
+I am going to use NTP (Network Time Protoco)
+I will use libraries like NTPClient to fetch time from NTP servers.
+
+
+![ApiTime](/assets/apitime.jpg)
+
+
+
 
  
 
