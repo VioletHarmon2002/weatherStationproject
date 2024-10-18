@@ -145,6 +145,19 @@ the next step I am going to add  the button, which could switch between displayi
 
 i have also modified my code adding some lines, so it optimizes the behavior for improved LCD visibility and simulates a stronger visual response based on ambient light levels.
 
+18.10.2024
+
+today im trying to connect my push button, so it works as follows:
+Single Press: Shows the real-time clock on the LCD.
+Double Press: Shows the temperature and humidity.
+Long Press (hold): Adjusts the brightness using the photoresistor.
+
+
+
+![Button](/assets/fridaywork.jpg)
+
+
+
 
 
 
