@@ -5,6 +5,11 @@ Here is the screenshot from Arduino:
 
 ![part of code](/assets/partsofcode.jpeg)
 
+a) Upon startup, the system initializes all components (LCD, DHT11, LDR, and buzzer).
+b) The I2C bus is scanned for connected devices, with their addresses printed to the Serial Monitor.
+c)In the main loop:
+Temperature and humidity are read from the DHT11 sensor and displayed on both the Serial Monitor and LCD.
+The photoresistor adjusts the LCD brightness depending on ambient light.
 
 
 
