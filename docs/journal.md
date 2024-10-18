@@ -143,6 +143,8 @@ https://github.com/adafruit/RTClib
 
 the next step I am going to add  the button, which could switch between displaying temperature/humidity data and real-time clock information on the LCD.
 
+i have also modified my code adding some lines, so it optimizes the behavior for improved LCD visibility and simulates a stronger visual response based on ambient light levels.
+
 
 
 
