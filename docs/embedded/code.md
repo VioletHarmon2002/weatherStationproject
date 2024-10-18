@@ -1,6 +1,9 @@
 # Embedded code
 
+1. This code integrates an LCD display, a DHT11 sensor for measuring temperature and humidity, a photoresistor (LDR) for light detection, and an I2C scanner. 
+Here is the screenshot from Arduino:
 
+![part of code](/assets/partsofcode.jpeg)
 
 
 
