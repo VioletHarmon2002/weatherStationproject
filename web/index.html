@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Time Detector - Dashboard</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
+<body>
     <header>
-      <h1>Time Detector Dashboard</h1>
-      <nav>
-        <ul>
-          <li><a href="#home" class="nav-link" data-target="home">Home</a></li>
-          <li><a href="#data" class="nav-link" data-target="data">Time Data</a></li>
-          <li><a href="#settings" class="nav-link" data-target="settings">Settings</a></li>
-        </ul>
-      </nav>
+        <h1>Time Detector Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#home" class="nav-link" data-target="home">Home</a></li>
+                <li><a href="#data" class="nav-link" data-target="data">Time Data</a></li>
+                <li><a href="#settings" class="nav-link" data-target="settings">Settings</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main id="app">
-      <section id="home" class="view">
-        <h2>Welcome to the Time Detector Dashboard</h2>
-        <p>View and analyze data from your device.</p>
-      </section>
+        <section id="home" class="view">
+            <h2>Welcome to the Time Detector Dashboard</h2>
+            <p>View and analyze data from your device.</p>
+        </section>
 
-      <section id="data" class="view hidden">
-        <h2>Time Data</h2>
-        <p id="current-time">Loading current time...</p>
-        <p>Data from your embedded device will be displayed here.</p>
-      </section>
+        <section id="data" class="view hidden">
+            <h2>Time Data</h2>
+            <p id="current-time">Loading current time...</p>
+            <div id="data-container">
+                <p>Data from your embedded device will be displayed here:</p>
+                <table id="data-table">
+                    <thead>
+                        <tr>
+                            <th>Sensor ID</th>
+                            <th>Temperature</th>
+                            <th>Humidity</th>
+                            <th>Light Level</th>
+                            <th>Timestamp</th>
+                        </tr>
+                    </thead>
+                    <tbody id="data-body">
+                        <!-- Data will be populated here -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
 
-      <section id="settings" class="view hidden">
-        <h2>Settings</h2>
-        <p>Manage your device settings here.</p>
-      </section>
+        <section id="settings" class="view hidden">
+            <h2>Settings</h2>
+            <p>Manage your device settings here.</p>
+        </section>
     </main>
 
     <footer>
-      <p> :))))))</p>
+        <p> :))))))</p>
     </footer>
 
     <script src="dashboard.js"></script>
-  </body>
+</body>
 </html>
