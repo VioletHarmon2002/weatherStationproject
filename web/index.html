@@ -1,61 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Time Detector - Dashboard</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Station Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Time Detector Dashboard</h1>
-        <nav>
-            <ul>
-                <li><a href="#home" class="nav-link" data-target="home">Home</a></li>
-                <li><a href="#data" class="nav-link" data-target="data">Time Data</a></li>
-                <li><a href="#settings" class="nav-link" data-target="settings">Settings</a></li>
-            </ul>
-        </nav>
+        <h1>Weather Station Dashboard</h1>
     </header>
 
-    <main id="app">
-        <section id="home" class="view">
-            <h2>Welcome to the Time Detector Dashboard</h2>
-            <p>View and analyze data from your device.</p>
+    <main>
+        <section id="data-display">
+            <h2>Sensor Data</h2>
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Temperature (°C)</th>
+                        <th>Humidity (%)</th>
+                        <th>Light Level</th>
+                        <th>Timestamp</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="data-tbody">
+                    <!-- Data will be populated here -->
+                </tbody>
+            </table>
         </section>
 
-        <section id="data" class="view hidden">
-            <h2>Time Data</h2>
-            <p id="current-time">Loading current time...</p>
-            <div id="data-container">
-                <p>Data from your embedded device will be displayed here:</p>
-                <table id="data-table">
-                    <thead>
-                        <tr>
-                            <th>Sensor ID</th>
-                            <th>Temperature</th>
-                            <th>Humidity</th>
-                            <th>Light Level</th>
-                            <th>Timestamp</th>
-                        </tr>
-                    </thead>
-                    <tbody id="data-body">
-                        <!-- Data will be populated here -->
-                    </tbody>
-                </table>
-            </div>
-        </section>
+        <section id="data-entry">
+            <h2>Add New Data</h2>
+            <form id="data-form">
+                <label for="temperature">Temperature (°C):</label>
+                <input type="number" id="temperature" name="temperature" step="0.1" required>
 
-        <section id="settings" class="view hidden">
-            <h2>Settings</h2>
-            <p>Manage your device settings here.</p>
+                <label for="humidity">Humidity (%):</label>
+                <input type="number" id="humidity" name="humidity" required>
+
+                <label for="light_level">Light Level:</label>
+                <input type="number" id="light_level" name="light_level" required>
+
+                <button type="submit">Add Data</button>
+            </form>
         </section>
     </main>
 
-    <footer>
-        <p> :))))))</p>
-    </footer>
-
-    <script src="dashboard.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
