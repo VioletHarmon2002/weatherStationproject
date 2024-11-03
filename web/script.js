@@ -1,33 +1,30 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // Load existing data when the page loads
     fetchSensorData();
 
-    // Form submission handler
     document.getElementById("data-form").addEventListener("submit", async (event) => {
         event.preventDefault();
-        
+
         const temperature = parseFloat(document.getElementById("temperature").value);
         const humidity = parseFloat(document.getElementById("humidity").value);
         const light_level = parseInt(document.getElementById("light_level").value);
 
         await addSensorData({ temperature, humidity, light_level });
-        fetchSensorData(); // Refresh the data display
+        fetchSensorData();
     });
 });
 
-// Fetch sensor data from the API
 async function fetchSensorData() {
     try {
-        const response = await fetch("api.php");
+        const response = await fetch("http://10.21.51.75/data_handler.php");
         const data = await response.json();
-        
+
         if (data.error) {
             console.error("Error fetching data:", data.error);
             return;
         }
 
         const dataTable = document.getElementById("data-tbody");
-        dataTable.innerHTML = ""; // Clear previous data
+        dataTable.innerHTML = "";
 
         data.data.forEach(record => {
             const row = document.createElement("tr");
@@ -46,10 +43,9 @@ async function fetchSensorData() {
     }
 }
 
-// Add new sensor data through the API
 async function addSensorData(newData) {
     try {
-        const response = await fetch("api.php", {
+        const response = await fetch("http://10.21.51.75/data_handler.php", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -69,20 +65,19 @@ async function addSensorData(newData) {
     }
 }
 
-// Delete sensor data through the API
 async function deleteSensorData(id) {
     try {
-        const response = await fetch(`api.php?id=${id}`, {
+        const response = await fetch(`http://10.21.51.75/data_handler.php?id=${id}`, {
             method: "DELETE"
         });
-        
+
         const result = await response.json();
-        
+
         if (result.error) {
             console.error("Error deleting data:", result.error);
         } else {
             console.log("Data deleted:", result);
-            fetchSensorData(); // Refresh the data display
+            fetchSensorData();
         }
     } catch (error) {
         console.error("Error deleting data:", error);
