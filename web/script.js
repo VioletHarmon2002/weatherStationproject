@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 async function fetchSensorData() {
     try {
-        const response = await fetch("http://10.21.51.75/data_handler.php");
+        const response = await fetch("http://localhost/data_handler.php");
         const data = await response.json();
 
         if (data.error) {
@@ -45,7 +45,7 @@ async function fetchSensorData() {
 
 async function addSensorData(newData) {
     try {
-        const response = await fetch("http://10.21.51.75/data_handler.php", {
+        const response = await fetch("http://localhost/data_handler.php", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -67,7 +67,7 @@ async function addSensorData(newData) {
 
 async function deleteSensorData(id) {
     try {
-        const response = await fetch(`http://10.21.51.75/data_handler.php?id=${id}`, {
+        const response = await fetch(`http://localhost/data_handler.php?id=${id}`, {
             method: "DELETE"
         });
 

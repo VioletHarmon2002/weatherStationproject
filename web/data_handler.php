@@ -1,18 +1,22 @@
 <?php
 header("Content-Type: application/json; charset=UTF-8");
 
-$servername = "mariadb"; 
-$username = "root";
-$password = "7YKyE8R2AhKzswfN";
-$dbname = "weatherstation";
+// Database connection parameters
+$servername = "mariadb"; // Assuming you are using Docker, 'mariadb' is the service name
+$username = "root"; // Your database username
+$password = "7YKyE8R2AhKzswfN"; // Your database password
+$dbname = "weatherstation"; // Your database name
 
+// Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
+// Check connection
 if ($conn->connect_error) {
     respondWithJson(["error" => "Database connection failed: " . $conn->connect_error], 500);
     exit;
 }
 
+// Determine the request method
 $method = $_SERVER['REQUEST_METHOD'];
 switch ($method) {
     case 'GET':
@@ -29,11 +33,14 @@ switch ($method) {
         exit;
 }
 
+// Close the database connection
 $conn->close();
 
+// Handle GET requests
 function handleGetRequest($conn) {
     $id = $_GET['id'] ?? null;
 
+    // Prepare the SQL query based on whether an ID is provided
     if ($id) {
         $stmt = $conn->prepare("SELECT * FROM EnvironmentData WHERE id = ?");
         $stmt->bind_param("i", $id);
@@ -41,6 +48,7 @@ function handleGetRequest($conn) {
         $stmt = $conn->prepare("SELECT * FROM EnvironmentData ORDER BY timestamp DESC");
     }
 
+    // Execute the statement and handle the result
     if ($stmt->execute()) {
         $result = $stmt->get_result();
         $data = $result->fetch_all(MYSQLI_ASSOC);
@@ -51,19 +59,23 @@ function handleGetRequest($conn) {
     $stmt->close();
 }
 
+// Handle POST requests
 function handlePostRequest($conn) {
     $input = json_decode(file_get_contents('php://input'), true);
 
+    // Check for JSON errors
     if (json_last_error() !== JSON_ERROR_NONE) {
         respondWithJson(["error" => "Invalid JSON format: " . json_last_error_msg()], 400);
         exit;
     }
 
+    // Validate the input data
     if (!isset($input['temperature'], $input['humidity'], $input['light_level'])) {
         respondWithJson(["error" => "Invalid input data."], 400);
         return;
     }
 
+    // Prepare and execute the insertion query
     $stmt = $conn->prepare("INSERT INTO EnvironmentData (temperature, humidity, light_level) VALUES (?, ?, ?)");
     $stmt->bind_param("ddi", $input['temperature'], $input['humidity'], $input['light_level']);
 
@@ -75,14 +87,17 @@ function handlePostRequest($conn) {
     $stmt->close();
 }
 
+// Handle DELETE requests
 function handleDeleteRequest($conn) {
     $id = $_GET['id'] ?? null;
 
+    // Validate the ID
     if (!$id) {
         respondWithJson(["error" => "ID is required for deletion."], 400);
         return;
     }
 
+    // Prepare and execute the deletion query
     $stmt = $conn->prepare("DELETE FROM EnvironmentData WHERE id = ?");
     $stmt->bind_param("i", $id);
 
@@ -94,6 +109,7 @@ function handleDeleteRequest($conn) {
     $stmt->close();
 }
 
+// Function to respond with JSON
 function respondWithJson($data, $statusCode = 200) {
     http_response_code($statusCode);
     echo json_encode($data);

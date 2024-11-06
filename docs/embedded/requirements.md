@@ -1,23 +1,44 @@
 # Requirements
 
-![Devices Table](/assets/systemreq.jpg)
 
-For my project i need to:
-
-1. EMBRQ#01: SENDING DATA TO BACKEND
-To implement the communication using HTTP protocol where the ESP8266 sends sensor data (temperature, humidity, light) from KY-015 and KY-018 sensors to a backend server. The data is sent over HTTP using WiFiClient and HTTPClient.
-2. EMBRQ#02: RECEIVING DATA FROM BACKEND
-The ESP8266 is configured as a server to receive status updates from the backend. It listens to incoming requests and processes commands (such as setting alarms or updating the clock).
-3. EMBRQ#03: AT LEAST TWO TYPES OF INPUT SENSORS
-I want to  connect two input sensors: the KY-015 (Temperature and Humidity Sensor) and the KY-018 (Photo Resistor) to the ESP8266. These sensors provide temperature, humidity, and light data.
-4. EMBRQ#04: AT LEAST TWO TYPES OF VISUAL OR SENSORY OUTPUTS
-I want to implement an LCD display and a buzzer as visual and sensory outputs. The LCD displays real-time data, while the buzzer can be used to alert users for alarms or other notifications.
-5. EMBRQ#05: WIFI MANAGER
-The embedded device must use WiFiManager for configuration of SSID and password (PWD) for connecting to the network.
+![Requirements](/assets/embeddedreq.jpeg)
 
 
-To build your embedded device you need to have a clear idea of the requirements. On this page you can describe the requirements of your embedded device. This includes the requirements from DLO, but also your own requirements.
+1. EMBRQ#01: SENDING DATA TO BACKEND - YES 
+The ESP8266 sends temperature and humidity data from the DHT11 sensor to the backend server via HTTP using the ESP8266WiFi.h library.
+
+![Requirements](/assets/EMBRQ#01.jpg)
+
+2. EMBRQ#02: RECEIVING DATA FROM BACKEND - NO
+
+
+3. EMBRQ#03: AT LEAST TWO TYPES OF INPUT SENSORS - NO
+The setup includes a button and a photoresistor (KY-018) to meet this requirement.
+
+![Requirements](/assets/EMBRQ#03.jpg)
+
+
+4. EMBRQ#04: AT LEAST TWO TYPES OF VISUAL OR SENSORY OUTPUTS - YES
+This project uses an LCD screen to display information and an LED for status indication.
+
+![Requirements](/assets/EMBRQ1#04.jpg)
+![Requirements](/assets/EMBRQ2#04.jpg)
 
 
 
-Add some images! 😉
+5. EMBRQ#05: WIFI MANAGER - YES 
+The embedded device uses hardcoded credentials in the code for connecting to the network.
+
+![Requirements](/assets/EMBRQ2#05.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
