@@ -6,34 +6,34 @@ The Smart Climate Monitor project aims to create an easy-to-use device that prov
 
 2. User Interface Design
 
-LCD Display
+The target audience includes:
+Environmental friendly people who want to use environmental friendly product, which produces not a lot carbon emissions.
+Smart Weather Station seeks to supply those who care about the environment an affordable, and collectible real-time accurate environmental data to increase awareness in sustainable living. Eco-conscious customers can modify their behavior to make a smaller footprint and help save energy, water along with other resources . The weather station itself is energy-efficient with low-power sensors and to reduce its environmental footprint
 
-Single Press of Button: Displays the current time (retrieved using NTP) in an easy-to-read format (e.g., HH:MM
-).
+User Needs:  Temperature, humidity and light readings on demand, moreover the  weather station provides accurate results for temperature, humidity and light Feasible: Using components such as DHT11 and KY-018, to capture light intensity and humidity making ESP8266 connected via WiFi network for real-time status.
 
-Double Press of Button: Shows the current temperature and humidity levels (e.g., "Temp: 25°C, Humidity: 60%").
-LED Indicators
+3. Physical product and the interaction with the produ
 
-Blue LED: Lights up when the temperature is below 0°C. This alerts users that it’s freezing.
+The Smart Weather Station comes in a custom made wooden enclosure with plywood precision laser cut. The box is a part of the product's eco-friendly nature, being made from wood and all. The use of sustainably sourced plywood is designed to offer the highest level of sustainable credentials, while being both efficient and practical. The wooden box shared efficient dimensions to contain the weather station, without requiring too much real estate on users’ properties: a simple user wish for less environmental harm.
 
-Red LED: Lights up when the temperature is above 0°C. This informs users that the temperature is above freezing, indicating normal conditions.
+![Table](/assets/boxx.jpg) 
 
-Button for Interaction
+![Table](/assets/process.jpg) 
 
-A single button will allow users to toggle between displaying the real-time clock and the temperature/humidity readings. This keeps the interface simple.
+The weather station collects data on temperature, humidity, and light levels, which are displayed clearly on the device. The wooden box ensures that the internal components are protected while allowing the sensors to function effectively.
 
-3. Using 3D Printing to Create a Real Product
-
-Component Placement:
-Front Panel:  a slot for the LCD display for easy visibility.
-LED Openings: small holes for the LEDs to protrude or be seen clearly through transparent plastic.
-Sensor Mounts:  appropriate holes or vents in the design for the humidity sensor and photoresistor to function optimally.
-A slot in the front or side panel of the case where the button will be accessible to the user.
+![Table](/assets/scetchbox.jpg) 
 
 
-![3dprinter](/assets/printer.jpg)
 
-Here is a real prottype, created with Tinkercad:
+
+
+
+
+
+
+
+
 
 
 

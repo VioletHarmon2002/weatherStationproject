@@ -3,10 +3,8 @@
 The database is designed to support an IoT-based weather station application. It stores data from sensors, logs device states, and keeps records of formatted time for specific actions or events.
 
 
-1. Database structure:
-
-[View the create.database.sql file](docs/database/create.database.sql)
-
+[View the create.database.sql file](/Users/elizavetasabanova/Desktop/guudeemiiree57/docs/database/create.database.sql)
+![database](/assets/workbench.jpg)
 
 ## Database Structure
 

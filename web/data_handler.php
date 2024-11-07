@@ -1,6 +1,3 @@
-
-
-
 <?php
 
 // Description: This script handles requests to interact with the database. It processes GET, POST, and DELETE requests for sensor data, including fetching existing data, adding new data, and deleting specific records.
