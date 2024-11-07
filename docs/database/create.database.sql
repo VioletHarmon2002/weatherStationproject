@@ -1,40 +1,37 @@
 
-CREATE DATABASE IF NOT EXISTS smart_time_registration;
-USE smart_time_registration;
-
-CREATE TABLE Devices (
-    device_id INT PRIMARY KEY AUTO_INCREMENT,
-    device_name VARCHAR(50) NOT NULL,
-    device_type VARCHAR(50) NOT NULL,
-    status VARCHAR(20) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
+CREATE DATABASE WeatherStation;
+USE WeatherStation;
 
 
 CREATE TABLE Sensors (
-    sensor_id INT PRIMARY KEY AUTO_INCREMENT,
-    device_id INT,
-    sensor_type VARCHAR(50) NOT NULL,
-    sensor_value FLOAT NOT NULL,
-    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (device_id) REFERENCES Devices(device_id)
+    sensor_id INT AUTO_INCREMENT PRIMARY KEY,
+    sensor_name VARCHAR(50) NOT NULL,
+    sensor_type VARCHAR(50) NOT NULL
 );
 
 
-CREATE TABLE Outputs (
-    output_id INT PRIMARY KEY AUTO_INCREMENT,
-    device_id INT,
-    output_type VARCHAR(50) NOT NULL,
-    output_value VARCHAR(100) NOT NULL,
-    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (device_id) REFERENCES Devices(device_id)
+CREATE TABLE EnvironmentData (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    sensor_id INT,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    temperature FLOAT,
+    humidity FLOAT,
+    light_level INT,
+    FOREIGN KEY (sensor_id) REFERENCES Sensors(sensor_id)
 );
 
 
-CREATE TABLE StatusMessages (
-    message_id INT PRIMARY KEY AUTO_INCREMENT,
-    device_id INT,
-    message TEXT NOT NULL,
-    received_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (device_id) REFERENCES Devices(device_id)
+CREATE TABLE DeviceState (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    red_led BOOLEAN,
+    blue_led BOOLEAN,
+    button_state BOOLEAN
+);
+
+
+CREATE TABLE TimeLogs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+    formatted_time VARCHAR(8)
 );
