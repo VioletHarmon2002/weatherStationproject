@@ -40,12 +40,15 @@ This includes testing the functionality of sensors and the microcontroller to gu
 
 Conclusion The smart weather system gives an easy approach for surrounding to be observed using an respective system. It is a cheap and economical method of observing the weather parameters. It means that it should run in the data collection/analysis environment. The device also validates this data by a close positive correlation with data provided through prominent weather channels maintaining high accuracy in real-time environment monitoring. The weather device forecasts with data collected and a great deal help for metrologists, farmers, industry work purposes and logistics or everyone whose works affected by the weather condition
 
-References:
-https://blog.aem.eco/weather-station-sensors
-https://www.rikasensor.com/a-news-weather-stations-and-climate-change-understanding-the-connection.html
-https://en.wordans.nl/claps-32000-gitano-eco-friendly-weather-station-with-bamboo-front-540161
-https://www.shipbob.com/blog/carbon-neutral-shipping/
+## References
 
+## References
+
+1. [Weather Station Sensors - AEM Blog](https://blog.aem.eco/weather-station-sensors)
+2. [Weather Stations and Climate Change: Understanding the Connection - Rika Sensor](https://www.rikasensor.com/a-news-weather-stations-and-climate-change-understanding-the-connection.html)
+3. [Gitano Eco-Friendly Weather Station with Bamboo Front - Wordans](https://en.wordans.nl/claps-32000-gitano-eco-friendly-weather-station-with-bamboo-front-540161)
+4. [Carbon Neutral Shipping - ShipBob Blog](https://www.shipbob.com/blog/carbon-neutral-shipping/)
+5. [An IoT-Based Weather Station Using an Embedded System - ResearchGate](https://www.researchgate.net/publication/366558464_AN_IOT_BASED_WEATHER_STATION_USING_AN_EMBEDDED_SYSTEM)
 
 
 
