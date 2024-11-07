@@ -7,6 +7,7 @@
 1. EMBRQ#01: SENDING DATA TO BACKEND - YES 
 The ESP8266 sends temperature and humidity data from the DHT11 sensor to the backend server via HTTP using the ESP8266WiFi.h library.
 
+![Requirements](/assets/EMBRQ#01.jpg)
 ![Requirements](docs/assets/EMBRQ#01.jpg)
 
 2. EMBRQ#02: RECEIVING DATA FROM BACKEND - NO
@@ -26,8 +27,7 @@ This project uses an LCD screen to display information and an LED for status ind
 
 
 
-5. EMBRQ#05: WIFI MANAGER - YES 
-The embedded device uses hardcoded credentials in the code for connecting to the network.
+5. EMBRQ#05: WIFI MANAGER - The embedded device uses hardcoded credentials in the code for connecting to the network. 
 
 ![Requirements](/assets/EMBRQ2#05.jpg)
 

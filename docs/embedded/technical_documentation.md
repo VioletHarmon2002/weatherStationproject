@@ -2,8 +2,6 @@
 
 
 
-
-
 Introduction:
 
 A system architecture diagram provides a high-level visual representation of the components and their interactions in the Smart Time Registration system. It helps stakeholders and developers understand how different parts—hardware, software, communication protocols, and the database—integrate and function together. 
@@ -96,17 +94,18 @@ The table below provides detailed information about each component, including th
 
 
 
-| Part         | Manufacturer  | Description	           | Quantity | Price (incl. VAT) |   |
+| Part         | Manufacturer  | Description	           | Quantity | Price (incl. VAT) |   | URL
 |--------------|---------------|--------------------------|----------|-------------------|-----------------------|
-| ESP8266      | [Manufacturer] | Wi-Fi microcontroller      | 1        | [4, 95]           |          
-| KY-015       | [Manufacturer] | Temperature & Humidity Sensor | 1        | [4 ,45]                     
-| KY-018       | [Manufacturer] | Photoresistor (LDR)        | 1        | [2, 55]           |      
-| LCD Display  | [Manufacturer] | 16x2 or 20x4 LCD display  | 1        | [3 , 45]           |         
-| KY-040       | [Manufacturer] | Rotary Encoder            | 1        | [3 ,95]           |         
-| Push Buttons | [Manufacturer] | Momentary push buttons    | 2        | [0 ,20]           |          
-| RTC DS3231   | [Manufacturer] | Real-Time Clock module    | 1        | [4, 95]           |           
-| RFID         | [Manufacturer] | RFID module               | 1        | [5 ,95]           |          
-| Buzzer       | [Manufacturer] | Piezo buzzer              | 1        | [1, 25]           |         
+| ESP8266      | [Espressif Systems] | Wi-Fi microcontroller       | 1        | [4, 95]          | https://en.wikipedia.org/wiki/ESP8266#:~:text=The%20ESP8266%20is%20a%20low,Espressif%20Systems%20in%20Shanghai%2C%20China.         
+| KY-015       | [Kuongshun Electronic] | Temperature & Humidity Sensor| 1      | [4 ,95]          |  https://www.az-deliveryde/en/products/dht-11-temperatursensor-modul        
+| KY-018       | [Keyes brand] | Photoresistor (LDR)         | 1        | [2, 55]          | https://hobbycomponents.com/sensors/160-photoresistive-light-dependent-resistor-module-ky-018#:~:text=Keyes%20brand%20KY%2D018.     
+| LCD Display  | [Shenzhen HZY Photoelectric Technology Co] | 16x2 or 20x4 LCD display    | 1        | [3, 45]         | https://hzylcd.en.alibaba.com/company_profile.html?spm=a2700.9099375.35.3.ZgN0hz#top-nav-bar              
+| Push Buttons | [Same Sky] | Momentary push buttons      | 1        | [0 ,10]          | https://nl.mouser.com/ProductDetail/Same-Sky/TS02-66-50-BK-100-LCR-D?qs=A6eO%252BMLsxmQ2%2FFf8jET%252BrA%3D%3D&mgh=1&utm_id=20333439722&gad_source=1&gbraid=0AAAAADn_wf1UQnE0WD25Yx6VCdJBKsSqr&gclid=CjwKCAiAxKy5BhBbEiwAYiW--x6iR72tqx0Uc68A-t8MgzaWLuZagSaLW-0zq6WN1GmP771Ftn7JbhoCE8wQAvD_BwE 
+| Jumper Wires | [SparkFun] | Jumper wires for connections| 17       | [1 ,75]         |https://nl.mouser.com/ProductDetail/SparkFun/PRT-12795?qs=WyAARYrbSnZ%2FIrMB64nYgw%3D%3D&mgh=1&utm_id=20333439722&gad_source=1&gbraid=0AAAAADn_wf1UQnE0WD25Yx6VCdJBKsSqr&gclid=CjwKCAiAxKy5BhBbEiwAYiW--zEFP5RHZTkgJUONBrGPEdWuuTav4gOHp9lX0mJq57axL7CYA1FnPxoCJ6sQAvD_BwE               
+| Breadboard   | [AZDelivery] | Prototyping board           | 1        | [3 ,99 ]          | https://www.amazon.nl/AZDelivery-Mini-Breadboard-compatibel-Inclusief/dp/B07KKJSFM1/ref=asc_df_B07KKJSFM1/?tag=nlshogostdde-21&linkCode=df0&hvadid=709904968515&hvpos=&hvnetw=g&hvrand=17606101980476706710&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9215103&hvtargid=pla-830808834908&psc=1&mcid=ac3e469720bf3d71aa7c7a2e2454492e&gad_source=1 
+| Usb-C cable  | [Allteq] | Cable for connection        | 1        | [5,00]           | https://www.allekabels.nl/usb-c-kabel/11518/2259587/usb-c-naar-usb-a-kabel.html?mc=nl-nl&gad_source=1&gbraid=0AAAAAD_j8Rfy6Iau8KUYhDhhyuXYtdDM1&gclid=CjwKCAiAxKy5BhBbEiwAYiW--3D9YmvaGSwT9MmWtxZ8UmtQrc-9oyiOgVMrUVRxUigL9LO0PmoYvxoCF7MQAvD_BwE 
+
+     
 
 
 
