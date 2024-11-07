@@ -2,6 +2,9 @@
 
 ### Front-End Files
 
+[GitLab Repository - Web Files](https://gitlab.fdmci.hva.nl/IoT/2024-2025-semester-1/individual-project/guudeemiiree57/-/tree/main/web?ref_type=heads)
+
+
 1. **`index.html`**:
    - The main HTML structure for the dashboard.
    - Contains a table for displaying sensor data and a form for adding new data.
