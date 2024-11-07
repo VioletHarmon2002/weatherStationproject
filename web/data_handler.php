@@ -1,11 +1,18 @@
+
+
+
 <?php
+
+// Description: This script handles requests to interact with the database. It processes GET, POST, and DELETE requests for sensor data, including fetching existing data, adding new data, and deleting specific records.
+// Author: Liza
+// Date: 01.11.2024
 header("Content-Type: application/json; charset=UTF-8");
 
 // Database connection parameters
-$servername = "mariadb"; // Assuming you are using Docker, 'mariadb' is the service name
-$username = "root"; // Your database username
-$password = "7YKyE8R2AhKzswfN"; // Your database password
-$dbname = "weatherstation"; // Your database name
+$servername = "mariadb"; 
+$username = "root"; 
+$password = "7YKyE8R2AhKzswfN"; 
+$dbname = "weatherstation"; 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -16,7 +23,7 @@ if ($conn->connect_error) {
     exit;
 }
 
-// Determine the request method
+
 $method = $_SERVER['REQUEST_METHOD'];
 switch ($method) {
     case 'GET':
@@ -33,14 +40,14 @@ switch ($method) {
         exit;
 }
 
-// Close the database connection
+
 $conn->close();
 
-// Handle GET requests
+
 function handleGetRequest($conn) {
     $id = $_GET['id'] ?? null;
 
-    // Prepare the SQL query based on whether an ID is provided
+    
     if ($id) {
         $stmt = $conn->prepare("SELECT * FROM EnvironmentData WHERE id = ?");
         $stmt->bind_param("i", $id);
@@ -48,7 +55,7 @@ function handleGetRequest($conn) {
         $stmt = $conn->prepare("SELECT * FROM EnvironmentData ORDER BY timestamp DESC");
     }
 
-    // Execute the statement and handle the result
+    
     if ($stmt->execute()) {
         $result = $stmt->get_result();
         $data = $result->fetch_all(MYSQLI_ASSOC);
@@ -59,7 +66,7 @@ function handleGetRequest($conn) {
     $stmt->close();
 }
 
-// Handle POST requests
+
 function handlePostRequest($conn) {
     $input = json_decode(file_get_contents('php://input'), true);
 
@@ -69,13 +76,13 @@ function handlePostRequest($conn) {
         exit;
     }
 
-    // Validate the input data
+    
     if (!isset($input['temperature'], $input['humidity'], $input['light_level'])) {
         respondWithJson(["error" => "Invalid input data."], 400);
         return;
     }
 
-    // Prepare and execute the insertion query
+    
     $stmt = $conn->prepare("INSERT INTO EnvironmentData (temperature, humidity, light_level) VALUES (?, ?, ?)");
     $stmt->bind_param("ddi", $input['temperature'], $input['humidity'], $input['light_level']);
 
@@ -87,17 +94,17 @@ function handlePostRequest($conn) {
     $stmt->close();
 }
 
-// Handle DELETE requests
+
 function handleDeleteRequest($conn) {
     $id = $_GET['id'] ?? null;
 
-    // Validate the ID
+    
     if (!$id) {
         respondWithJson(["error" => "ID is required for deletion."], 400);
         return;
     }
 
-    // Prepare and execute the deletion query
+    
     $stmt = $conn->prepare("DELETE FROM EnvironmentData WHERE id = ?");
     $stmt->bind_param("i", $id);
 

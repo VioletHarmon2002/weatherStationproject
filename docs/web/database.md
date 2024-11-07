@@ -8,11 +8,6 @@ The database is designed to support an IoT-based weather station application. It
 [View the create.database.sql file](docs/database/create.database.sql)
 
 
-### Database Schema
-
-The `WeatherStation` database consists of the following tables:
-
-1. **Sensors**
 ## Database Structure
 
 1. **Sensors**
@@ -28,7 +23,7 @@ This table logs the state of the device (LEDs and button state)
 This table logs the formatted time for the weather station.
 
 
-2.  Database Interaction
+## Database Interacture 
 
 When the embedded device sends sensor data, for instance temperature, humidity,light, it is stored in Sensors table. So the web application retrieves data from the database and allows users do view device outputs and status messages on the front-end. 
 To interact with the database, I use PHP to send requests and retrieve or insert data

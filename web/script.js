@@ -1,3 +1,8 @@
+// Description: This script manages the interaction with the backend for sensor data, including fetching, adding, and deleting data from the server. It listens for form submissions, sends new data to the server, and updates the displayed data on the page.
+// Author: Liza
+// Date: 01.11.2024
+
+
 document.addEventListener("DOMContentLoaded", () => {
     fetchSensorData();
 
