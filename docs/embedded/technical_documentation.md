@@ -8,16 +8,7 @@ A system architecture diagram provides a high-level visual representation of the
 ![fritzing Table](/assets/fritzing.jpg)
 
 
-This BOM details all the components necessary to make the Weather Station project work successfully. All parts listed is necessary for the system to work well since they allow it to display data in real time, adjust according to ambient light and ultimately enable interaction with the user. The table below contains detailed information about each item (part name, manufacturer, description, amount required for the project, price including VAT). 
 
-
-
-# Technical Documentation
-
-A system architecture diagram provides a high-level visual representation of the components and their interactions in the Weather Station system. It helps stakeholders and developers understand how different parts—hardware, software, communication protocols, and the database—integrate and function together.
-
-1. Fritzing Table
-![Fritzing Table](/assets/fritzing.jpg)
 
 ## Bill of Materials (BOM)
 
