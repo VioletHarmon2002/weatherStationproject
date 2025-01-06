@@ -9,7 +9,7 @@ header("Content-Type: application/json; charset=UTF-8");
 $servername = "mariadb"; 
 $username = "root"; 
 $password = "7YKyE8R2AhKzswfN"; 
-$dbname = "weatherstation"; 
+$dbname = "Weatherstation"; 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
