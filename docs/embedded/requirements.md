@@ -7,7 +7,8 @@
 1. EMBRQ#01: SENDING DATA TO BACKEND - YES 
 The ESP8266 sends temperature and humidity data from the DHT11 sensor to the backend server via HTTP using the ESP8266WiFi.h library.
 
-![Requirements](../docs/assets/EMBRQ#01.jpg)
+![Requirements](/assets/thefirstreq.jpg)
+
 ![Requirements](../docs/assets/EMBRQ#01.jpg)
 
 2. EMBRQ#02: RECEIVING DATA FROM BACKEND - NO
