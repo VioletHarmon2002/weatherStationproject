@@ -13,7 +13,7 @@ This document also includes a diagram that visually represents the entire system
 
 
 ## System Architecture Diagram
-![System Architecture Diagram](path_to_your_diagram_image)
+![System Architecture Diagram](docs/assets/arch.jpg)
 
 ## Components Description
 
