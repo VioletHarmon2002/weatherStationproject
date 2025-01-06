@@ -16,20 +16,20 @@ The ESP8266 sends temperature and humidity data from the DHT11 sensor to the bac
 3. EMBRQ#03: AT LEAST TWO TYPES OF INPUT SENSORS - NO
 The setup includes a button and a photoresistor (KY-018) to meet this requirement.
 
-![Requirements](/assets/EMBRQ#03.jpg)
+![Requirements](/assets/EMBRQ#03.jpeg)
 
 
 4. EMBRQ#04: AT LEAST TWO TYPES OF VISUAL OR SENSORY OUTPUTS - YES
 This project uses an LCD screen to display information and an LED for status indication.
 
-![Requirements](/assets/EMBRQ1#04.jpg)
-![Requirements](/assets/EMBRQ2#04.jpg)
+![Requirements](/assets/EMBRQ1#04.jpeg)
+![Requirements](/assets/EMBRQ2#04.jpeg)
 
 
 
 5. EMBRQ#05: WIFI MANAGER - The embedded device uses hardcoded credentials in the code for connecting to the network. 
 
-![Requirements](/assets/EMBRQ2#05.jpg)
+![Requirements](/assets/EMBRQ2#05.jpeg)
 
 
 
