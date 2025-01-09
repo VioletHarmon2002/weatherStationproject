@@ -1,15 +1,55 @@
 # Conclude & Reflect
 
- Cutting Experience: 
- The most difficult part was the process of laser cutting wood to build housing for  own Smart Weather Station. 
- At first, I was really struggling to learn how the laser settings worked and where to position everything. In the end, it turned out to be a little more complicated than anticipated because they had such precise cuts for how everything was installed. I failed a couple of times as my first two tries were not correctly.
-In each case, the panels didn't fit or the cuts were too shallow / deep. It ended up taking me longer, with three tries to get the final accurate shot I was aiming for. Yes, on the third shot I hit my mark perfectly and all of the pieces now nuzzle up to each other.
-I learned a lot from this experience — the benefits of trial and error in design, to thoroughly test machinery before going on to make final versions. If I was to do this again, there would be more test cuts and alignment checking before finally doing.
+## Usability
 
-Here, how i was constructing my prototype, with all the measurments 
+The Smart Weather Station is designed to be user-friendly and meets the selected requirements effectively. The product is clean, with a well-organized layout that allows for easy access to all components. The sensors and display are integrated seamlessly, providing real-time data monitoring. Below are images showing the final product from various angles, demonstrating its functionality and aesthetic appeal:
 
-![Table](/assets/mybox1.jpg) 
-![Table](/assets/mybox2.jpg) 
+![Back View](/assets/back.jpeg)
+![Side View](/assets/side.jpeg)
+![Back View](/assets/bottom.jpeg)
+![Top View](/assets/boxx.jpg)
+
+## Requirements Reflection
+
+The following requirements were targeted during the design and testing phases:
+
+- **Ease of Assembly**: Achieved, as users were able to assemble the enclosure with minimal difficulty.
+- **Functionality**: Achieved, with sensors providing accurate data.
+- **Durability**: Partially achieved. 
+- **Aesthetic Appeal**: Partially, as the design aligns with eco-friendliness.
+
+
+## Design and Creation Failures
+
+
+
+1. **Panel Fit Issue**
+   - **goal**: all panels fit together.
+   - **went Wrong**: some misalignment.
+   - **solution**: adjusted laser settings for deeper cuts.
+   - **approach in the future**: perform test cuts on scrap materials.
+
+2. **Sensor Malfunction**
+   - **goal**: Integrate sensors that provide accurate readings.
+   - **went Wrong**: One sensor provided inconsistent data.
+   - **solution**: Replaced the faulty sensor and recalibrated the system.
+   - **approach in the future**: Implement a testing phase for all sensors before installation.
+
+3. **assembly Instructions**
+   - **goal**: to provide provide clear assembly instructions.
+   - **went wrong**: misunderstanding in the instructions.
+   - **solution**: additional visuals.
+   - **approach in the future**: to include step-by-step video tutorials.
+
+4. **Material Waste**
+   - **goal**: minimize material waste during cutting.
+   - **went Wrong**: excess waste.
+   - **solution**: re-optimized the layout for better material utilization.
+   - **approach in the future**: can use software simulations to test different layouts before cutting.
+
+### Laser Cutting Experience
+
+The most challenging aspect was the laser cutting process for the Smart Weather Station's housing. Initially, I struggled with understanding the laser settings and positioning. The precision required for the cuts was more complex than anticipated, leading to several failed attempts. My first two tries resulted in panels that didn't fit due to cuts being too shallow or too deep. It took three attempts to achieve the precise cuts needed for a perfect fit. This experience taught me the value of trial and error in design and the importance of thoroughly testing machinery before final production. In future projects, I plan to conduct more test cuts and alignment checks to ensure accuracy from the start.
 
 
 

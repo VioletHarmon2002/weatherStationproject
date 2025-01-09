@@ -74,7 +74,7 @@ The user testing revealed the following insights:
 
 Based on the user testing and manual manufacturing experience, the following optimizations can be made for the final version:
 
-- **Improved Instructions**: Revise the assembly guide to include step-by-step visuals and clearer language.
-- **Dimension Adjustments**: Refine the component dimensions to ensure a tighter fit and enhance durability.
+- **Improved Instructions**: to revise the assembly guide to include step-by-step visuals and clearer language.
+- **Dimension Adjustments**: to refine the component dimensions to ensure a tighter fit and enhance durability.
 
 
