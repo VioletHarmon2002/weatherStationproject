@@ -1,10 +1,7 @@
 # Create & Test
-
-# Create & Test
-
 ## Device and Material Specifications
 
-The Smart Weather Station is constructed using a custom-made wooden enclosure, crafted from sustainably sourced plywood. The specifications for the device and materials are as follows:
+The Smart Weather Station is constructed using a custom-made wooden enclosure, crafted from sustainably sourced plywood.
 
 - **Material**: 100% sustainably sourced plywood
   - **Left and Right Sides**: 20 cm length x 10 cm width
@@ -46,4 +43,38 @@ Several optimizations were made to improve the manufacturing process:
 - **Finish**: 
 
   ![Finish of Manufacturing](/assets/myname.jpg)
+
+## User Testing
+
+### Test Requirements
+
+Requirements to check:
+
+- **Ease of Assembly**: The enclosure should be easy to assemble and disassemble without requiring special tools.
+- **Functionality**: The sensors and display should function correctly.
+- **Aesthetic Appeal**: The design should align with eco-friendly principles.
+
+### Test Procedure
+
+To evaluate these requirements, I asked my friend to test the Smart Weather Station. The following test procedure was implemented:
+
+1. **Assembly Test**: My friend was provided with the enclosure components and instructions to assemble the box.
+2. **Functionality Test**: Friend tested the device by monitoring temperature, humidity, and light levels.
+3. **Aesthetic Evaluation**: My friend gave me a feedback about the eco-friendliness of the design.
+
+### Test Results
+
+The user testing revealed the following insights:
+
+- **What Works**: The design is functional and aesthetically pleasing. My friend appreciated the eco-friendly materials and the accuracy of the sensor data.
+- **Areas for Improvement**: 
+  - **Component Fit**: A few components were slightly loose. 
+
+### Design Optimization
+
+Based on the user testing and manual manufacturing experience, the following optimizations can be made for the final version:
+
+- **Improved Instructions**: Revise the assembly guide to include step-by-step visuals and clearer language.
+- **Dimension Adjustments**: Refine the component dimensions to ensure a tighter fit and enhance durability.
+
 
