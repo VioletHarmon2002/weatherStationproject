@@ -40,14 +40,14 @@ The following requirements were targeted during the design and testing phases:
 **assembly Instructions**
 1. goal: to provide provide clear assembly instructions.
 2. went wrong: misunderstanding in the instructions.
-3. solution**: additional visuals.
-4. approach in the future**: to include step-by-step video tutorials.
+3. solution: additional visuals.
+4. approach in the future: to include step-by-step video tutorials.
 
 
 **Material Waste**
 1. goal: minimize material waste during cutting.
 2. went Wrong: excess waste.
-3. solution**: re-optimized the layout for better material utilization.
+3. solution: re-optimized the layout for better material utilization.
 4. approach in the future: can use software simulations to test different layouts before cutting.
 
 ### Laser Cutting Experience
