@@ -7,7 +7,7 @@ The Smart Weather Station is designed to be user-friendly and meets the selected
 ![Back View](/assets/back.jpeg)
 ![Side View](/assets/side.jpeg)
 ![Back View](/assets/bottom.jpeg)
-![Top View](/assets/boxx.jpg)
+![Top View](/assets/myname.jpg)
 
 ## Requirements Reflection
 
@@ -22,12 +22,11 @@ The following requirements were targeted during the design and testing phases:
 ## Design and Creation Failures
 
 
-
 1. **Panel Fit Issue**
-   - **goal**: all panels fit together.
-   - **went Wrong**: some misalignment.
-   - **solution**: adjusted laser settings for deeper cuts.
-   - **approach in the future**: perform test cuts on scrap materials.
+goal: all panels fit together.
+went wrong: some misalignment.
+solution: adjusted laser settings for deeper cuts.
+approach in the future: perform test cuts on scrap materials.
 
 2. **Sensor Malfunction**
    - **goal**: Integrate sensors that provide accurate readings.
