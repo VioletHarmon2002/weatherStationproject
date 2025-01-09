@@ -66,12 +66,11 @@ Docker is used in this project to simplify the development and deployment proces
    All services are connected through a custom Docker network, allowing for easy communication between containers using service names.
 
 4. **Port Mapping**: 
-   - The web server is exposed on port 80, making the application accessible via localhost.
-   - PHPMyAdmin is accessible on port 8080.
+    The web server is exposed on port 80, making the application accessible via localhost, while PHPMyAdmin is accessible on port 8080.
 
 #### Using Docker for Development
 
-To start the development environment:
+To start the development environment for my project:
 
 1. Ensure Docker and Docker Compose are installed on your system. I have installed it at the beginning of the project.
 2. Navigate to the project root directory.
