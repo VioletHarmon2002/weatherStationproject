@@ -19,7 +19,7 @@ The intended users of the Smart Weather Station are environmentally conscious in
 ### Main Goal
 
 The main goal of the Smart Weather Station, from the user's perspective, is to provide an easy-to-use, eco-friendly device that delivers real-time environmental data.
-The goal is to create a box, which is a part of the product's eco-friendly nature, being made from wood and having minimalistic design and to be easy to assemble.
+The goal is to create a box, which is a part of the product's eco-friendly nature, being made from wood, having minimalistic design and easy to assemble.
 
 ## 2. Product Requirements for the Box
 
@@ -57,7 +57,7 @@ The properties of the chosen material, sustainably sourced plywood, are ideal fo
 - **Ease of Manufacturing**: Compatible with laser cutting, allowing for precise and efficient production.
 - **Aesthetic**: Aligns with the eco-friendly design.
 
-![Manufacturing Process](/assets/process.jpg) 
+
 
 ## 5. Digital Design
 

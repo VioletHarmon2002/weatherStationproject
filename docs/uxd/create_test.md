@@ -1,3 +1,3 @@
 # Create & Test
 
-Write here your own content!
+![Manufacturing Process](/assets/process.jpg) 
