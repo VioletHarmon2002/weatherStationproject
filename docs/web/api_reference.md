@@ -36,6 +36,50 @@ This document provides an overview of the REST API for my web application. It in
 - **Response**: JSON object containing the requested data or an error message.
 
 
+### Deployment with Docker
+
+Docker is used in this project to simplify the development and deployment process. Specifically, it is used to create a development environment for the project, which includes setting up a web server and a database. This allows me to work on the project locally, without having to manually install and configure these components.
+
+#### Docker Configuration
+
+1. **Docker Compose**: 
+   The project uses Docker Compose to define and run multi-container Docker applications, so the `docker-compose.yml` file in the root directory shows the following services:
+   - Web server (Nginx)
+   - MariaDB (MySQL)
+   - PHPMyAdmin
+   - Local Tunnel
+
+
+2. **Nginx Configuration**:
+
+
+3. **PHPMyAdmin Configuration**:
+
+
+#### Key Features of Docker Setup
+
+1. **Environment Isolation**: Each component of the application runs in its own container, ensuring isolation and preventing conflicts between different parts of the stack.
+
+2. **Persistent Data**: Allows  real-time development without rebuilding containers.
+
+3. **Network Configuration**: 
+   All services are connected through a custom Docker network, allowing for easy communication between containers using service names.
+
+4. **Port Mapping**: 
+   - The web server is exposed on port 80, making the application accessible via localhost.
+   - PHPMyAdmin is accessible on port 8080.
+
+#### Using Docker for Development
+
+To start the development environment:
+
+1. Ensure Docker and Docker Compose are installed on your system. I have installed it at the beginning of the project.
+2. Navigate to the project root directory.
+3. Run the following command:
+
+   ```bash
+   docker-compose up -d
+
 
 ## Design Choices
 
