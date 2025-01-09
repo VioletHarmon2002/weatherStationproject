@@ -103,7 +103,4 @@ The frontend of my webpage is designed with a focus on simplicity and functional
 ### Backend Design
 The backend is organized to effectively manage requests and process information. PHP has been selected for its suitability with the current infrastructure and simplicity of integration with MySQL.
 
-### Deployment with Docker
-Docker is used in this project to simplify the development and deployment process. Specifically, it is used to create a development environment for the project, which includes setting up a web server and a database. This allows me to work on the project locally, without having to manually install and configure these components.
-
 

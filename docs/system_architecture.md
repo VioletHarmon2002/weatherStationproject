@@ -53,7 +53,7 @@ The document is a guide to understand the complex structure of my IoT project.Th
 
 ## Data Flow
 
-1. The WeMos D1 Mini collects data from the DHT22 and LDR sensors.
+1. The WeMos D1 Mini collects data the  sensors.
 2. The microcontroller processes this data, updates the LCD display, and controls the LEDs.
 3. The processed data is sent to the web server via WiFi using HTTP POST requests.
 4. The PHP backend (`data_handler.php`) receives this data and stores it in the MariaDB database.

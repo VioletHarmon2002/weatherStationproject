@@ -1,29 +1,76 @@
 # Technical Documentation
 
-# Design Decisions
+## Technologies I have Used
 
-## Backend Technology
+- **Backend**: The backend is constructed with PHP, which manages data processing and database communication.
+- **Frontend**: The frontend is created using HTML, CSS, and JavaScript, offering a responsive and engaging user interface.
+- **Database**:  MySQL serves for data storage, using PHPMyAdmin for database management.
+- **Deployment**: Docker is used to containerize the application.
+- **Version Control**: Git is used for version control.
 
-The use of PHP as the backend technology for this project because of its ease and multi-purpose programming language. . This project in PHP does the sensor data operation through HTTP methods GET, POST and DELETE. It is the backend that queries the database, processes requests and response back to frontend always in a structured JSON format.
+### Deployment with Docker
+Docker is used in this project to simplify the development and deployment process. Specifically, it is used to create a development environment for the project, which includes setting up a web server and a database. This allows me to work on the project locally, without having to manually install and configure these components
 
-## Frontend Technology
+#### Docker Configuration
 
-HTML and CSS are used to create a front-end for the weather station dashboard.  Navigation page layout shows sensor data in a table format. JavaScript handles the interactive aspects (fetching, adding and deleting sensor data) In the example, it uses the javascript fetch api to asynchronously (AJAX) calls to update the dashboard without reloading the page.
-
-## Database
-
-For the storage of sensor data, I use MySQL. 
-
-- **Sensors**: Stores information about the various sensors used in the system.
-- **EnvironmentData**: Logs the environmental data (temperature, humidity, light level) collected by the sensors.
-- **DeviceState**: Keeps track of the state of the device, including the status of LEDs and buttons.
+1. **Docker Compose**: 
+   The project uses Docker Compose to define and run multi-container Docker applications, so the `docker-compose.yml` file in the root directory shows the following services:
+   - Web server (Nginx)
+   - MariaDB (MySQL)
+   - PHPMyAdmin
+   - Local Tunnel
 
 
-## Data Handling
+2. **Nginx Configuration**:
 
-The data exchange between the frontend and backend is managed through JSON format. When the frontend sends data (e.g., sensor readings) to the backend, it is sent as a JSON object via an AJAX request. T
 
-The form on the frontend collects sensor data from the user and sends it to the backend using a POST request. 
+3. **PHPMyAdmin Configuration**:
 
-## Challenges
-The first time I tried to connect, it gave me a few issues — wrong credentials or database configurations. We fixed this solved by ensuring that the server was correctly configured, and the credentials were right
+
+#### Key Features of Docker Setup
+
+1. **Environment Isolation**: Each component of the application runs in its own container, ensuring isolation and preventing conflicts between different parts of the stack.
+
+2. **Persistent Data**: Allows  real-time development without rebuilding containers.
+
+3. **Network Configuration**: 
+   All services are connected through a custom Docker network, allowing for easy communication between containers using service names.
+
+4. **Port Mapping**: 
+    The web server is exposed on port 80, making the application accessible via localhost, while PHPMyAdmin is accessible on port 8080.
+
+#### Using Docker for Development
+
+To start the development environment for my project:
+
+1. Ensure Docker and Docker Compose are installed on your system. I have installed it at the beginning of the project.
+2. Navigate to the project root directory.
+3. Run the following command:
+
+   ```bash
+   docker-compose up -d
+
+
+## Design Choices
+
+### Frontend Design
+The frontend of my webpage is designed with a focus on simplicity and functionality. The main layout is created using HTML5 semantic tags for better structure and accessibility. The design is clean and minimalist, with a focus on presenting the weather station data clearly.
+
+
+1. **Responsive Layout**: The application uses a responsive design approach, with the main content constrained to a maximum width of 800px and centered on the page.
+
+2. **Data Display**: A table is used to present the sensor data, including temperature, humidity, light level, and timestamp, allowing for easy scanning and comparison of data points.
+
+3. **Data Entry Form**: A form is provided for manual data entry.
+
+4. **Color Scheme**: The color palette is kept simple, with a light background (#f4f7fa) for good contrast and readability. Headings use a dark color (#333) to stand out clearly.
+
+5. **Typography**: The application uses Arial as the primary font, with sans-serif as a fallback. 
+
+6. **Interactive Elements**: The table includes action buttons for each data entry, allowing for potential editing or deletion of data points.
+
+7. **Semantic Structure**: The use of semantic HTML tags like `<header>`, `<main>`, and `<section>` improves the document's structure.
+
+### Backend Design
+The backend is organized to effectively manage requests and process information. PHP has been selected for its suitability with the current infrastructure and simplicity of integration with MySQL.
+
