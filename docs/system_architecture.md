@@ -3,9 +3,7 @@
 
 ## Introduction
 
-The System Architecture document serves as a comprehensive guide to understanding the intricate design of my IoT project. This document is like a map that shows how all the different parts of my project fit together and work as a team. 
-In this project, we're using cool gadget like the WeMOS D1 to collect data from sensors. These sensors can measure things like temperature and humidity. All this data is then sent to a webserver, where it gets processed and stored in a database. The webserver uses PHP scripts to handle the data, and we have a frontend with HTML, CSS, and JavaScript to display the information in a user-friendly way.
-This document also includes a diagram that visually represents the entire system. It shows how each part communicates with the others, using arrows to indicate the flow of data. By looking at this diagram, you can easily see how everything is connected.
+The document is a guide to understand the complex structure of my IoT project.The document is like a map showing how all the different parts of my project combine with each other and work like a single command.My project uses  gadgets, such as the WEMOS D1 mini, to collect data from sensors. These sensors can measure parameters such as temperature and humidity. All this data is sent to a web server, where it is processed and stored in a database. The web server processes the data using PHP scripts and displays the information in a user-friendly form on the front panel using HTML, CSS and JavaScript.The document also includes a diagram that visually represents the entire system. It shows how each part interacts with other parts, using arrows to indicate the data flow. Thanks to this diagram, it is easy to understand how everything is interconnected.
 
 ## Legenda
 - **Square Text Blocks**: Represent hardware and software components.
@@ -13,7 +11,7 @@ This document also includes a diagram that visually represents the entire system
 
 
 ## System Architecture Diagram
-![System Architecture Diagram](/assets/arch.jpg)
+![system architecture](/assets/arch.png)
 
 ## Components Description
 
@@ -53,11 +51,22 @@ This document also includes a diagram that visually represents the entire system
 ### Internet
 
 
+## Data Flow
+
+1. The WeMos D1 Mini collects data from the DHT22 and LDR sensors.
+2. The microcontroller processes this data, updates the LCD display, and controls the LEDs.
+3. The processed data is sent to the web server via WiFi using HTTP POST requests.
+4. The PHP backend (`data_handler.php`) receives this data and stores it in the MariaDB database.
+5. The frontend JavaScript periodically fetches the latest data from the API using GET requests.
+6. The web interface updates in real-time to display the current environmental conditions.
+
+
 ## Communication Protocols:
 HTTP/HTTPS: Between the frontend and backend.
 I2C/SPI: Between the microcontroller and sensors.
 MySQL: Between the backend and the database.
 Docker Networking: Between Docker containers.
+
 
 
 
