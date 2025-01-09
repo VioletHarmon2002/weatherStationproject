@@ -38,15 +38,14 @@ The Smart Weather Station features a custom-made wooden enclosure with precision
 
 ![Wooden Enclosure](/assets/boxx.jpg) 
 
-The weather station collects data on temperature, humidity, and light levels, which are displayed clearly on the device. The wooden box ensures that the internal components are protected while allowing the sensors to function effectively.
+The wooden box ensures that the internal components are protected while allowing the sensors to function effectively.
 
-![Sketch of the Box](/assets/scetchbox.jpg)
 
 ## 4. Digital Manufacturing & Material
 
 ### Justification for Material and Manufacturing Technique
 
-Laser cutting is chosen as the manufacturing technique for its precision and speed, allowing for efficient production with minimal waste. Also, i have visited a lesson, where we were taught, how to make a box from wood. I was excited to see, how can i make my own from scratch.
+Laser cutting is chosen as the manufacturing technique for its precision and speed, allowing for efficient production with minimal waste. Also, I have visited a lesson, where we were taught, how to make a box from wood. I was excited to see, how can I make my own from scratch, so I can use it for my own project,
 
 Sustainably sourced plywood is selected for its strength, ease of laser cutting, and minimal environmental impact. This material fits the concept best due to its durability and natural aesthetic, aligning with the eco-friendly ethos of the project.
 
@@ -77,8 +76,7 @@ Here are the steps i went through during my design process:
 
 - **Initial Conceptualization**: Brainstorming sessions and sketches were created to outline the basic structure and functionality of the weather station box.
 - **Software Utilization**: MakerCase was employed to translate initial sketches into digital designs. The tool's intuitive interface allowed for easy adjustments to dimensions and material specifications.
-- **Iterative Design**: Multiple iterations were conducted to refine the box design, focusing on optimizing space for internal components while maintaining a compact form factor.
-- **Challenges and Solutions**: I had some problems, related to the sized of the box, it was quite hard for me, especially the first time, to understand, how can i fit my breadboard and sensors to the box .
+- **Challenges and Solutions**: I had some problems, related to the sizes of the box, it was quite hard for me, especially the first time, to understand, how can i fit my breadboard and sensors to the box. 
 - **Finalization**: The final design was reviewed and approved by myself.
 
 
