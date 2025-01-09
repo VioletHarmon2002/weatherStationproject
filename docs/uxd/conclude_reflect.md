@@ -22,29 +22,33 @@ The following requirements were targeted during the design and testing phases:
 ## Design and Creation Failures
 
 
-1. **Panel Fit Issue**
-goal: all panels fit together.
-went wrong: some misalignment.
-solution: adjusted laser settings for deeper cuts.
-approach in the future: perform test cuts on scrap materials.
+**Panel Fit Issue**
+1. goal: all panels fit together.
+2. went wrong: some misalignment.
+3. solution: adjusted laser settings for deeper cuts.
+4. approach in the future: perform test cuts on scrap materials.
 
-2. **Sensor Malfunction**
-   - **goal**: Integrate sensors that provide accurate readings.
-   - **went Wrong**: One sensor provided inconsistent data.
-   - **solution**: Replaced the faulty sensor and recalibrated the system.
-   - **approach in the future**: Implement a testing phase for all sensors before installation.
 
-3. **assembly Instructions**
-   - **goal**: to provide provide clear assembly instructions.
-   - **went wrong**: misunderstanding in the instructions.
-   - **solution**: additional visuals.
-   - **approach in the future**: to include step-by-step video tutorials.
+**Sensor Malfunction**
+1. goal: Integrate sensors that provide accurate readings.
+2. went Wrong: One sensor provided inconsistent data.
+3. solution: Replaced the faulty sensor and recalibrated the system.
+4. approach in the future: Implement a testing phase for all sensors before installation.
 
-4. **Material Waste**
-   - **goal**: minimize material waste during cutting.
-   - **went Wrong**: excess waste.
-   - **solution**: re-optimized the layout for better material utilization.
-   - **approach in the future**: can use software simulations to test different layouts before cutting.
+
+
+**assembly Instructions**
+1. goal: to provide provide clear assembly instructions.
+2. went wrong: misunderstanding in the instructions.
+3. solution**: additional visuals.
+4. approach in the future**: to include step-by-step video tutorials.
+
+
+**Material Waste**
+1. goal: minimize material waste during cutting.
+2. went Wrong: excess waste.
+3. solution**: re-optimized the layout for better material utilization.
+4. approach in the future: can use software simulations to test different layouts before cutting.
 
 ### Laser Cutting Experience
 
