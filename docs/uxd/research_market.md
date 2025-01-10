@@ -142,7 +142,7 @@ Future research should focus on:
 
 5. Sathish Kumar, S., Dhivya, R., Mohanaprakash, K., & Ohmsakthi Vel, R. (2022). An IoT-Based Weather Station Using an Embedded System. ResearchGate. https://www.researchgate.net/publication/366558464_AN_IOT_BASED_WEATHER_STATION_USING_AN_EMBEDDED_SYSTEM
 
-6. Ajayi, O. O., Popoola, O. M., Adedeji, K. B., Adeyi, A. J., & Pelumi, O. O. (2021). Design and Implementation of an Energy-Efficient Weather Station for Wind Data Collection. International Journal of Renewable Energy Development, 10(3), 579-588. https://www.researchgate.net/publication/352060103_Design_and_Implementation_of_an_Energy-Efficient_Weather_Station_for_W
+6. Ajayi, O. O., Popoola, O. M., Adedeji, K. B., Adeyi, A. J., & Pelumi, O. O. (2021). Design and Implementation of an Energy-Efficient Weather Station for Wind Data Collection. International Journal of Renewable Energy Development. Retrieved from https://www.researchgate.net/publication/352060103_Design_and_Implementation_of_an_Energy-Efficient_Weather_Station_for_W
 
 7.  METER Group. (n.d.). ATMOS 41 All-in-One Weather Station. Retrieved from https://metergroup.com/products/atmos-41-wireless-remote-weather-station/
 
