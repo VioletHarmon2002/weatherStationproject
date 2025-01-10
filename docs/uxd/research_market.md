@@ -23,7 +23,7 @@ To answer my questions, I will employ a mixed-method approach:
 
 ## Insights:
 
-Weather stations that incorporate eco-friendly materials and energy-efficient technology offer a diverse strategy for increasing consumer adoption and aiding in the fight against climate change. A strong catalyst for both direct and indirect good environmental impact is produced by this synergy.
+Weather stations that incorporate eco-friendly materials and energy-efficient technology offer a diverse strategy for increasing consumer adoption and aiding in the fight against climate change. 
 
 The public's growing eco-consciousness is at the forefront of consumer attraction. Customers are becoming more interested in goods that reflect their ideals as environmental consciousness grows. Weather stations that are made from recycled materials and run on renewable energy sources are more than just practical devices; they are physical manifestations of environmental commitment. The stations' appeal to a wider audience can be increased by incorporating eco-friendly materials' natural, organic appearance into home and garden settings. These weather stations are appealing from an ethical and financial standpoint due to the long-term cost-effectiveness that comes from energy-efficient designs.
 
@@ -32,7 +32,6 @@ Innovations in technology are essential to this integration. Researchers like Aj
 These developments have far-reaching effects that go well beyond individual customers. A denser network of data gathering locations could result from broader adoption of more enticing and reasonably priced weather stations. This enlarged network can offer real-time, high-resolution data that is essential for studying climate change and developing early warning systems for extreme weather occurrences, particularly when reinforced with IoT capabilities as investigated by Kodali and Mandal. By bridging the gap between scientific endeavours and public participation, the introduction of eco-friendly, user-friendly weather stations to engage ordinary folks in environmental monitoring could greatly advance climate research.
 
 From an environmental standpoint, the benefits are twofold. Directly, energy-efficient designs and the use of renewable energy sources reduce the carbon footprint of each weather station. The use of recycled or eco-friendly materials in construction minimizes waste and resource consumption. Indirectly, these weather stations serve as tools for increasing environmental awareness and understanding of local climate patterns, potentially influencing behavior changes at individual and community levels.
-
 
 Moreover, success in creating eco-friendly, energy-efficient weather stations could catalyze a transformation in the broader consumer electronics market. It could set new industry standards, driving the entire sector towards more sustainable practices. stations alone. Tthe integration of eco-friendly materials and energy-efficient technology in weather stations creates a positive feedback loop. Increased consumer adoption leads to more extensive data collection, which enhances climate research and awareness. This, in turn, drives further adoption and technological improvements. This cycle not only contributes to climate change mitigation efforts directly through reduced environmental impact but also indirectly by fostering a more informed and engaged public, better equipped to tackle the challenges of climate change.
 
@@ -137,11 +136,9 @@ Future research should focus on:
 
 1. AEM. (n.d.). Weather Station Sensors. AEM Blog. https://blog.aem.eco/weather-station-sensors
 
-2. Rika Sensor. (n.d.). Weather Stations and Climate Change: Understanding the Connection. https://www.rikasensor.com/a-news-weather-stations-and-climate-change-understanding-the-connection.html
+2. Rika Sensor. (2024, July 6). Weather Stations and Climate Change: Understanding the Connection. https://www.rikasensor.com/a-news-weather-stations-and-climate-change-understanding-the-connection.html
 
-3. Wordans. (n.d.). Gitano Eco-Friendly Weather Station with Bamboo Front. https://en.wordans.nl/claps-32000-gitano-eco-friendly-weather-station-with-bamboo-front-540161
-
-4. ShipBob. (n.d.). Carbon Neutral Shipping. ShipBob Blog. https://www.shipbob.com/blog/carbon-neutral-shipping/
+4. ShipBob. (2024, September 6). Carbon Neutral Shipping. ShipBob Blog. https://www.shipbob.com/blog/carbon-neutral-shipping/
 
 5. Sathish Kumar, S., Dhivya, R., Mohanaprakash, K., & Ohmsakthi Vel, R. (2022). An IoT-Based Weather Station Using an Embedded System. ResearchGate. https://www.researchgate.net/publication/366558464_AN_IOT_BASED_WEATHER_STATION_USING_AN_EMBEDDED_SYSTEM
 
