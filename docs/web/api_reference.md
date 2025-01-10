@@ -16,7 +16,7 @@ This document provides an overview of the REST API for my web application. It in
   - `humidity` (float): The humidity reading.
   - `lightLevel` (int): The light level reading.
 - **Body**: JSON object with the above fields.
-- **Return Value**: JSON object indicating success or failure of the data submission.
+- **Return Value**: JSON object.
 
 ![api](/assets/gft.jpg)
 
