@@ -1,6 +1,6 @@
-# IoT Start Project
+# IoT Weather Station Project
 
-This is your IoT Gitlab project. You can use it to store your code and documentation. 
+This is my Elizaveta Sabanova's IoT Gitlab project that was done during exchange program in HvA Netherlands, Amsterdam. 
 
 ## Getting Started
 
